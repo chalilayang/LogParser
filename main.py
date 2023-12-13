@@ -107,7 +107,6 @@ def parseDataFromFile(file_path):
 
 def drawFigure(file_path):
     plt.figure(file_path)
-    print("plt.figure")
     parsed_data = parseDataFromFile(file_path)
     time = []
     timeLabel = []
@@ -175,16 +174,17 @@ def drawFigure(file_path):
             else:
                 plt.plot(x3, y3, color='b', linewidth=2)
     yCurNativeAverage = np.average(y_curNative)
+    yCurJavaAverage = np.average(y)
     maxTime = np.max(x)
     minTime = np.min(x)
     timeElapse = maxTime - minTime
-    info = f'Native avg:{yCurNativeAverage:.1f}M  GcCount:{gcCount}  LifeCount:{lifeCount / 2}  Time:{timeElapse:.1f}s'
-    plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 60, info, fontdict={'size': 12, 'color': 'red'})
+    info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M \nGcCount:{gcCount}  LifeCount:{lifeCount / 2}  Time:{timeElapse:.1f}s'
+    plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
 
 
 if __name__ == '__main__':
-    file_path = 't/log.txt'
-    drawFigure(file_path)
-    file_path = 'u/log2.txt'
-    drawFigure(file_path)
+    drawFigure('t/log.txt')
+    drawFigure('t/log2.txt')
+    drawFigure('u/log2.txt')
+    drawFigure('u/log3.txt')
     plt.show()
