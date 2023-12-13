@@ -48,7 +48,7 @@ new_native_bytes = "new_native_bytes:"
 time_format = "%Y-%m-%d %H:%M:%S.%f"
 
 
-def parse_numbers_after_keyword(file_path):
+def parseDataFromFile(file_path):
     parsed_data = []
     with open(file_path, 'r') as file:
         for line in file:
@@ -97,19 +97,18 @@ def parse_numbers_after_keyword(file_path):
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
                 parsed_data.append(GcEvent(timestamp, "NativeAlloc"))
-                print(line)
             if "com.miui.home: Explicit concurrent copying GC" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
                 parsed_data.append(GcEvent(timestamp, "Explicit"))
-                print(line)
     return parsed_data
 
 
-def parse_text_file(file_path):
-    parsed_data = parse_numbers_after_keyword(file_path)
-    fig, ax = plt.subplots()
+def drawFigure(file_path):
+    plt.figure(file_path)
+    print("plt.figure")
+    parsed_data = parseDataFromFile(file_path)
     time = []
     timeLabel = []
     for record in parsed_data:
@@ -128,17 +127,17 @@ def parse_text_file(file_path):
             curBytes = record.currentNativeByte()
             if curBytes > maxY:
                 maxY = curBytes
-    ax.plot(x, y)
-    ax.plot(x, y_curNative, linewidth=0.5)
+    plt.plot(x, y)
+    plt.plot(x, y_curNative, linewidth=0.5)
     yCurNativeMaxIndex = np.argmax(y_curNative)
-    ax.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
-    ax.annotate(
+    plt.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
+    plt.annotate(
         f'max:{y_curNative[yCurNativeMaxIndex]:.0f}M',
         xy=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]),
         xytext=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]))
     yCurNativeMinIndex = np.argmin(y_curNative)
-    ax.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='red')
-    ax.annotate(
+    plt.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='red')
+    plt.annotate(
         f'min:{y_curNative[yCurNativeMinIndex]:.0f}M',
         xy=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]),
         xytext=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]))
@@ -156,9 +155,9 @@ def parse_text_file(file_path):
             y2.append(maxY + 20)
             lifeCount = lifeCount + 1
             if "wm_on_resume_called" in record.event:
-                ax.plot(x2, y2, linestyle='dotted', color='r')
+                plt.plot(x2, y2, linestyle='dotted', color='r')
             else:
-                ax.plot(x2, y2, linestyle='dotted', color='b')
+                plt.plot(x2, y2, linestyle='dotted', color='b')
     x3 = []
     y3 = []
     gcCount = 0
@@ -172,18 +171,20 @@ def parse_text_file(file_path):
             y3.append(maxY)
             gcCount = gcCount + 1
             if "NativeAlloc" in record.event:
-                ax.plot(x3, y3, color='r', linewidth=2)
+                plt.plot(x3, y3, color='r', linewidth=2)
             else:
-                ax.plot(x3, y3, color='b', linewidth=2)
+                plt.plot(x3, y3, color='b', linewidth=2)
     yCurNativeAverage = np.average(y_curNative)
     maxTime = np.max(x)
     minTime = np.min(x)
     timeElapse = maxTime - minTime
     info = f'Native avg:{yCurNativeAverage:.1f}M  GcCount:{gcCount}  LifeCount:{lifeCount / 2}  Time:{timeElapse:.1f}s'
     plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 60, info, fontdict={'size': 12, 'color': 'red'})
-    plt.show()
 
 
 if __name__ == '__main__':
-    file_path = 'log.txt'  # 替换为你的文本文件路径
-    parse_text_file(file_path)
+    file_path = 't/log.txt'
+    drawFigure(file_path)
+    file_path = 'u/log2.txt'
+    drawFigure(file_path)
+    plt.show()
