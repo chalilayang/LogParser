@@ -4,6 +4,7 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from datetime import datetime
 import time as tm
+import numpy as np
 from scipy.interpolate import interp1d
 
 
@@ -96,11 +97,19 @@ def parse_numbers_after_keyword(file_path):
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
                 parsed_data.append(GcEvent(timestamp, "NativeAlloc"))
+                print(line)
+            if "com.miui.home: Explicit concurrent copying GC" in line:
+                time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
+                datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
+                timestamp = datetime_obj.timestamp()
+                parsed_data.append(GcEvent(timestamp, "Explicit"))
+                print(line)
     return parsed_data
 
 
 def parse_text_file(file_path):
     parsed_data = parse_numbers_after_keyword(file_path)
+    fig, ax = plt.subplots()
     time = []
     timeLabel = []
     for record in parsed_data:
@@ -119,11 +128,24 @@ def parse_text_file(file_path):
             curBytes = record.currentNativeByte()
             if curBytes > maxY:
                 maxY = curBytes
-    plt.plot(x, y)
-    plt.plot(x, y_curNative)
+    ax.plot(x, y)
+    ax.plot(x, y_curNative)
+    yCurNativeMaxIndex = np.argmax(y_curNative)
+    ax.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
+    ax.annotate(
+        f'max:{y_curNative[yCurNativeMaxIndex]:.1f}',
+        xy=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]),
+        xytext=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]))
+    yCurNativeMinIndex = np.argmin(y_curNative)
+    ax.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='red')
+    ax.annotate(
+        f'min:{y_curNative[yCurNativeMinIndex]:.1f}',
+        xy=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]),
+        xytext=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]))
     # plt.xticks(time, timeLabel, rotation=90)
     x2 = []
     y2 = []
+    lifeCount = 0
     for record in parsed_data:
         if isinstance(record, LifeEvent):
             x2.clear()
@@ -132,12 +154,14 @@ def parse_text_file(file_path):
             y2.append(0)
             x2.append(record.time)
             y2.append(maxY)
+            lifeCount = lifeCount + 1
             if "wm_on_resume_called" in record.event:
-                plt.plot(x2, y2, linestyle='dotted', color='r')
+                ax.plot(x2, y2, linestyle='dotted', color='r')
             else:
-                plt.plot(x2, y2, linestyle='dotted', color='b')
+                ax.plot(x2, y2, linestyle='dotted', color='b')
     x3 = []
     y3 = []
+    gcCount = 0
     for record in parsed_data:
         if isinstance(record, GcEvent):
             x3.clear()
@@ -146,10 +170,17 @@ def parse_text_file(file_path):
             y3.append(0)
             x3.append(record.time)
             y3.append(maxY)
-            plt.plot(x3, y3, linestyle='dotted', color='g')
+            gcCount = gcCount + 1
+            if "NativeAlloc" in record.event:
+                ax.plot(x3, y3, color='r')
+            else:
+                ax.plot(x3, y3, color='b')
+    yCurNativeAverage = np.average(y_curNative)
+    info = f'Native avg:{yCurNativeAverage:.1f}M GcCount:{gcCount} LifeCount:{lifeCount / 2}'
+    plt.text(x[0], y_curNative[yCurNativeMaxIndex], info, fontsize=10)
     plt.show()
 
 
 if __name__ == '__main__':
-    file_path = 'log.txt'  # 替换为你的文本文件路径
+    file_path = 'log2.txt'  # 替换为你的文本文件路径
     parse_text_file(file_path)
