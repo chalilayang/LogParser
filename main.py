@@ -129,17 +129,17 @@ def parse_text_file(file_path):
             if curBytes > maxY:
                 maxY = curBytes
     ax.plot(x, y)
-    ax.plot(x, y_curNative)
+    ax.plot(x, y_curNative, linewidth=0.5)
     yCurNativeMaxIndex = np.argmax(y_curNative)
     ax.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
     ax.annotate(
-        f'max:{y_curNative[yCurNativeMaxIndex]:.1f}',
+        f'max:{y_curNative[yCurNativeMaxIndex]:.0f}M',
         xy=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]),
         xytext=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]))
     yCurNativeMinIndex = np.argmin(y_curNative)
     ax.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='red')
     ax.annotate(
-        f'min:{y_curNative[yCurNativeMinIndex]:.1f}',
+        f'min:{y_curNative[yCurNativeMinIndex]:.0f}M',
         xy=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]),
         xytext=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]))
     # plt.xticks(time, timeLabel, rotation=90)
@@ -151,9 +151,9 @@ def parse_text_file(file_path):
             x2.clear()
             y2.clear()
             x2.append(record.time)
-            y2.append(0)
+            y2.append(-20)
             x2.append(record.time)
-            y2.append(maxY)
+            y2.append(maxY + 20)
             lifeCount = lifeCount + 1
             if "wm_on_resume_called" in record.event:
                 ax.plot(x2, y2, linestyle='dotted', color='r')
@@ -172,18 +172,18 @@ def parse_text_file(file_path):
             y3.append(maxY)
             gcCount = gcCount + 1
             if "NativeAlloc" in record.event:
-                ax.plot(x3, y3, color='r')
+                ax.plot(x3, y3, color='r', linewidth=2)
             else:
-                ax.plot(x3, y3, color='b')
+                ax.plot(x3, y3, color='b', linewidth=2)
     yCurNativeAverage = np.average(y_curNative)
     maxTime = np.max(x)
     minTime = np.min(x)
     timeElapse = maxTime - minTime
-    info = f'Native avg:{yCurNativeAverage:.1f}M GcCount:{gcCount} LifeCount:{lifeCount / 2}  Time:{timeElapse:.1f}s'
-    plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 10, info, fontdict={'size': 12, 'color': 'red'})
+    info = f'Native avg:{yCurNativeAverage:.1f}M  GcCount:{gcCount}  LifeCount:{lifeCount / 2}  Time:{timeElapse:.1f}s'
+    plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 60, info, fontdict={'size': 12, 'color': 'red'})
     plt.show()
 
 
 if __name__ == '__main__':
-    file_path = 'log2.txt'  # 替换为你的文本文件路径
+    file_path = 'log.txt'  # 替换为你的文本文件路径
     parse_text_file(file_path)
