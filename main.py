@@ -176,8 +176,11 @@ def parse_text_file(file_path):
             else:
                 ax.plot(x3, y3, color='b')
     yCurNativeAverage = np.average(y_curNative)
-    info = f'Native avg:{yCurNativeAverage:.1f}M GcCount:{gcCount} LifeCount:{lifeCount / 2}'
-    plt.text(x[0], y_curNative[yCurNativeMaxIndex], info, fontsize=10)
+    maxTime = np.max(x)
+    minTime = np.min(x)
+    timeElapse = maxTime - minTime
+    info = f'Native avg:{yCurNativeAverage:.1f}M GcCount:{gcCount} LifeCount:{lifeCount / 2}  Time:{timeElapse:.1f}s'
+    plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 10, info, fontdict={'size': 12, 'color': 'red'})
     plt.show()
 
 
