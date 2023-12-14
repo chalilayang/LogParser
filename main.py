@@ -156,15 +156,21 @@ def drawFigure(file_path):
             if curBytes > maxY:
                 maxY = curBytes
     lineJava, = ax1.plot(x, y)
-    lineNative, = ax1.plot(x, y_curNative, linewidth=0.5)
+    lineNative, = ax1.plot(x, y_curNative, linewidth=0.5, color='green')
+
     yCurNativeMaxIndex = np.argmax(y_curNative)
-    ax1.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
+    ax1.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='green')
     ax1.annotate(
         f'max:{y_curNative[yCurNativeMaxIndex]:.0f}M',
         xy=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]),
-        xytext=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]))
+        xytext=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]), color='green')
+
     yCurNativeMinIndex = np.argmin(y_curNative)
-    ax1.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='red')
+    ax1.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='green')
+    ax1.annotate(
+        f'min:{y_curNative[yCurNativeMinIndex]:.0f}M',
+        xy=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]),
+        xytext=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]), color='green')
 
     x1 = []
     y1 = []
@@ -179,11 +185,8 @@ def drawFigure(file_path):
             elif record.urgency > maxUrgency:
                 maxUrgency = record.urgency
     ax2 = ax1.twinx()
-    ax2.plot(x1, y1)
-    # plt.annotate(
-    #     f'min:{y_curNative[yCurNativeMinIndex]:.0f}M',
-    #     xy=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]),
-    #     xytext=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]))
+    ax2.plot(x1, y1, color='blue', linestyle='dotted', marker='.', linewidth=0.5)
+
     # plt.xticks(time, timeLabel, rotation=90)
     x2 = []
     y2 = []
@@ -222,8 +225,8 @@ def drawFigure(file_path):
     timeElapse = maxTime - minTime
     info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
            f'\nGc:{gcCount}  LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
-    plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
-    plt.legend(
+    ax1.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
+    ax1.legend(
         [lineNative, lineJava, lineNativeAllocGc],
         ["native", "java", "NativeAllocGc"],
         bbox_to_anchor=(1, 1), loc=1, borderaxespad=0)
@@ -231,7 +234,7 @@ def drawFigure(file_path):
 
 if __name__ == '__main__':
     drawFigure('t/log.txt')
-    # drawFigure('t/log2.txt')
-    # drawFigure('u/log2.txt')
-    # drawFigure('u/log3.txt')
+    drawFigure('t/log2.txt')
+    drawFigure('u/log2.txt')
+    drawFigure('u/log3.txt')
     plt.show()
