@@ -1,3 +1,5 @@
+import sys
+
 import matplotlib
 
 matplotlib.use('TkAgg')
@@ -106,28 +108,37 @@ def parseDataFromFile(file_path):
 
 
 def drawFigure(file_path):
+    global lineNativeAllocGc
     plt.figure(file_path)
     parsed_data = parseDataFromFile(file_path)
     time = []
     timeLabel = []
+    minTime = sys.maxsize
+    maxTime = -1
+    checkGCCount = 0
     for record in parsed_data:
         time.append(record.time)
         formatted_time = tm.strftime(time_format, tm.localtime(record.time * 1000))
         timeLabel.append(formatted_time)
+        if record.time < minTime:
+            minTime = record.time
+        if record.time > maxTime:
+            maxTime = record.time
     x = []
     y = []
     y_curNative = []
     maxY = 0.0
     for record in parsed_data:
         if isinstance(record, CheckGCEvent):
-            x.append(record.time)
+            checkGCCount = checkGCCount + 1
+            x.append(record.time - minTime)
             y.append(record.javaAlloc)
             y_curNative.append(record.currentNativeByte())
             curBytes = record.currentNativeByte()
             if curBytes > maxY:
                 maxY = curBytes
-    plt.plot(x, y)
-    plt.plot(x, y_curNative, linewidth=0.5)
+    lineJava, = plt.plot(x, y)
+    lineNative, = plt.plot(x, y_curNative, linewidth=0.5)
     yCurNativeMaxIndex = np.argmax(y_curNative)
     plt.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
     plt.annotate(
@@ -148,9 +159,9 @@ def drawFigure(file_path):
         if isinstance(record, LifeEvent):
             x2.clear()
             y2.clear()
-            x2.append(record.time)
+            x2.append(record.time - minTime)
             y2.append(-20)
-            x2.append(record.time)
+            x2.append(record.time - minTime)
             y2.append(maxY + 20)
             lifeCount = lifeCount + 1
             if "wm_on_resume_called" in record.event:
@@ -164,27 +175,30 @@ def drawFigure(file_path):
         if isinstance(record, GcEvent):
             x3.clear()
             y3.clear()
-            x3.append(record.time)
+            x3.append(record.time - minTime)
             y3.append(0)
-            x3.append(record.time)
+            x3.append(record.time - minTime)
             y3.append(maxY)
             gcCount = gcCount + 1
             if "NativeAlloc" in record.event:
-                plt.plot(x3, y3, color='r', linewidth=2)
+                lineNativeAllocGc, = plt.plot(x3, y3, color='r', linewidth=2)
             else:
                 plt.plot(x3, y3, color='b', linewidth=2)
     yCurNativeAverage = np.average(y_curNative)
     yCurJavaAverage = np.average(y)
-    maxTime = np.max(x)
-    minTime = np.min(x)
     timeElapse = maxTime - minTime
-    info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M \nGcCount:{gcCount}  LifeCount:{lifeCount / 2}  Time:{timeElapse:.1f}s'
+    info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
+           f'\nGc:{gcCount}  LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
     plt.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
+    plt.legend(
+        [lineNative, lineJava, lineNativeAllocGc],
+        ["native", "java", "NativeAllocGc"],
+        bbox_to_anchor=(1, 1), loc=1, borderaxespad=0)
 
 
 if __name__ == '__main__':
     drawFigure('t/log.txt')
-    drawFigure('t/log2.txt')
-    drawFigure('u/log2.txt')
-    drawFigure('u/log3.txt')
+    # drawFigure('t/log2.txt')
+    # drawFigure('u/log2.txt')
+    # drawFigure('u/log3.txt')
     plt.show()
