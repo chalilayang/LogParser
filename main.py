@@ -47,6 +47,11 @@ class GcUrgencyEvent(object):
         return "time：%s\t urgency：%s" % (self.time, self.urgency)
 
 
+class RequestEvent(object):
+    def __init__(self, time):
+        self.time = time
+
+
 MB = 1024 * 1024
 
 GetBytesAllocated = "GetBytesAllocated:"
@@ -101,6 +106,11 @@ def parseDataFromFile(file_path):
                     print(f"Cannot convert '{numberStr}' to an float.")
                 urgency = urgency_number
                 parsed_data.append(GcUrgencyEvent(timestamp, urgency))
+            elif "CheckGCForNative requested" in line:
+                time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
+                datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
+                timestamp = datetime_obj.timestamp()
+                parsed_data.append(RequestEvent(timestamp))
             elif "wm_on_resume_called" in line and "com.miui.home" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
@@ -176,16 +186,24 @@ def drawFigure(file_path):
     y1 = []
     minUrgency = sys.maxsize
     maxUrgency = 0.0
+    urgencyCount = 0
     for record in parsed_data:
         if isinstance(record, GcUrgencyEvent):
             x1.append(record.time - minTime)
             y1.append(record.urgency)
+            if record.urgency >= 1.0:
+                urgencyCount = urgencyCount + 1
             if record.urgency < minUrgency:
                 minUrgency = record.urgency
             elif record.urgency > maxUrgency:
                 maxUrgency = record.urgency
     ax2 = ax1.twinx()
     ax2.plot(x1, y1, color='blue', linestyle='dotted', marker='.', linewidth=0.5)
+
+    requestCount = 0
+    for record in parsed_data:
+        if isinstance(record, RequestEvent):
+            requestCount = requestCount + 1
 
     # plt.xticks(time, timeLabel, rotation=90)
     x2 = []
@@ -224,7 +242,7 @@ def drawFigure(file_path):
     yCurJavaAverage = np.average(y)
     timeElapse = maxTime - minTime
     info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
-           f'\nGc:{gcCount}  LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
+           f'\nGc:{gcCount}  request:{requestCount} urgency:{urgencyCount} LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
     ax1.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
     ax1.legend(
         [lineNative, lineJava, lineNativeAllocGc],
@@ -233,8 +251,8 @@ def drawFigure(file_path):
 
 
 if __name__ == '__main__':
-    drawFigure('t/log.txt')
-    drawFigure('t/log2.txt')
-    drawFigure('u/log2.txt')
+    # drawFigure('t/log.txt')
+    # drawFigure('t/log2.txt')
+    # drawFigure('u/log2.txt')
     drawFigure('u/log3.txt')
     plt.show()
