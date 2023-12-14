@@ -7,11 +7,13 @@ import numpy as np
 
 
 class CheckGCEvent(object):
-    def __init__(self, time, old_native_bytes, new_native_bytes, java_alloc):
+    def __init__(self, time, old_native_bytes, new_native_bytes, java_alloc, java_gc_start_bytes, adj_start_bytes):
         self.time = time
         self.oldNativeBytes = old_native_bytes
         self.newNativeBytes = new_native_bytes
         self.javaAlloc = java_alloc
+        self.javaGcStart = java_gc_start_bytes
+        self.adjStartBytes = adj_start_bytes
 
     def currentNativeByte(self):
         return self.oldNativeBytes + self.newNativeBytes
@@ -56,7 +58,9 @@ MB = 1024 * 1024
 
 GetBytesAllocated = "GetBytesAllocated:"
 old_native_bytes = "old_native_bytes:"
-new_native_bytes = "new_native_bytes:"
+new_native_bytes_str = "new_native_bytes:"
+java_gc_start_bytes_str = "java_gc_start_bytes:"
+adj_start_bytes_str = "adj_start_bytes:"
 time_format = "%Y-%m-%d %H:%M:%S.%f"
 
 
@@ -85,7 +89,7 @@ def parseDataFromFile(file_path):
                     print(f"Cannot convert '{numberStr}' to an integer.")
                 oldNativeBytes = integer_number
 
-                numberStr = line.split(new_native_bytes)[1].strip().split(" ")[0]
+                numberStr = line.split(new_native_bytes_str)[1].strip().split(" ")[0]
                 integer_number = 0
                 try:
                     integer_number = int(numberStr) / MB
@@ -93,7 +97,27 @@ def parseDataFromFile(file_path):
                     print(f"Cannot convert '{numberStr}' to an integer.")
                 newNativeBytes = integer_number
 
-                parsed_data.append(CheckGCEvent(timestamp, oldNativeBytes, newNativeBytes, javaAlloc))
+                numberStr = line.split(java_gc_start_bytes_str)[1].strip().split(" ")[0]
+                integer_number = 0
+                try:
+                    integer_number = int(numberStr) / MB
+                except ValueError:
+                    print(f"Cannot convert '{numberStr}' to an integer.")
+                java_gc_start_bytes = integer_number
+
+                numberStr = line.split(adj_start_bytes_str)[1].strip().split(" ")[0]
+                integer_number = 0
+                try:
+                    integer_number = int(numberStr) / MB
+                except ValueError:
+                    print(f"Cannot convert '{numberStr}' to an integer.")
+                adj_start_bytes = integer_number
+
+                parsed_data.append(
+                    CheckGCEvent(
+                        timestamp, oldNativeBytes, newNativeBytes, javaAlloc, java_gc_start_bytes, adj_start_bytes
+                    )
+                )
             elif "gc_urgency" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
@@ -155,6 +179,7 @@ def drawFigure(file_path):
     x = []
     y = []
     y_curNative = []
+    y_Adj = []
     maxY = 0.0
     for record in parsed_data:
         if isinstance(record, CheckGCEvent):
@@ -162,10 +187,12 @@ def drawFigure(file_path):
             x.append(record.time - minTime)
             y.append(record.javaAlloc)
             y_curNative.append(record.currentNativeByte())
+            y_Adj.append(record.adjStartBytes)
             curBytes = record.currentNativeByte()
             if curBytes > maxY:
                 maxY = curBytes
     lineJava, = ax1.plot(x, y)
+    lineAdj, = ax1.plot(x, y_Adj)
     lineNative, = ax1.plot(x, y_curNative, linewidth=0.5, color='green')
 
     yCurNativeMaxIndex = np.argmax(y_curNative)
@@ -199,7 +226,6 @@ def drawFigure(file_path):
                 maxUrgency = record.urgency
     ax2 = ax1.twinx()
     ax2.plot(x1, y1, color='blue', linestyle='dotted', marker='.', linewidth=0.5)
-
     requestCount = 0
     for record in parsed_data:
         if isinstance(record, RequestEvent):
@@ -239,20 +265,23 @@ def drawFigure(file_path):
             else:
                 ax1.plot(x3, y3, color='b', linewidth=2)
     yCurNativeAverage = np.average(y_curNative)
+    yCurAdjAverage = np.average(y_Adj)
     yCurJavaAverage = np.average(y)
     timeElapse = maxTime - minTime
-    info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
+    info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M Adj avg:{yCurAdjAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
            f'\nGc:{gcCount}  request:{requestCount} urgency:{urgencyCount} LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
     ax1.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
     ax1.legend(
-        [lineNative, lineJava, lineNativeAllocGc],
-        ["native", "java", "NativeAllocGc"],
+        [lineNative, lineAdj, lineJava, lineNativeAllocGc],
+        ["native", "adjStart", "java", "NativeAllocGc"],
         bbox_to_anchor=(1, 1), loc=1, borderaxespad=0)
+    plt.grid()
 
 
 if __name__ == '__main__':
     # drawFigure('t/log.txt')
     # drawFigure('t/log2.txt')
     # drawFigure('u/log2.txt')
-    drawFigure('u/log3.txt')
+    drawFigure('u/log4.txt')
+    drawFigure('t/log4.txt')
     plt.show()
