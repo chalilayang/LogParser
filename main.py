@@ -1,13 +1,9 @@
 import sys
 
-import matplotlib
-
-matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from datetime import datetime
 import time as tm
 import numpy as np
-from scipy.interpolate import interp1d
 
 
 class CheckGCEvent(object):
@@ -40,6 +36,15 @@ class GcEvent(object):
 
     def __str__(self):
         return "time：%s\t event：%s" % (self.time, self.event)
+
+
+class GcUrgencyEvent(object):
+    def __init__(self, time, urgency):
+        self.time = time
+        self.urgency = urgency
+
+    def __str__(self):
+        return "time：%s\t urgency：%s" % (self.time, self.urgency)
 
 
 MB = 1024 * 1024
@@ -84,22 +89,34 @@ def parseDataFromFile(file_path):
                 newNativeBytes = integer_number
 
                 parsed_data.append(CheckGCEvent(timestamp, oldNativeBytes, newNativeBytes, javaAlloc))
-            if "wm_on_resume_called" in line and "com.miui.home" in line:
+            elif "gc_urgency" in line:
+                time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
+                datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
+                timestamp = datetime_obj.timestamp()
+                numberStr = line.split("gc_urgency")[1].strip().split(" ")[0]
+                urgency_number = 0
+                try:
+                    urgency_number = float(numberStr)
+                except ValueError:
+                    print(f"Cannot convert '{numberStr}' to an float.")
+                urgency = urgency_number
+                parsed_data.append(GcUrgencyEvent(timestamp, urgency))
+            elif "wm_on_resume_called" in line and "com.miui.home" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
                 parsed_data.append(LifeEvent(timestamp, "wm_on_resume_called"))
-            if "wm_on_paused_called" in line and "com.miui.home" in line:
+            elif "wm_on_paused_called" in line and "com.miui.home" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
                 parsed_data.append(LifeEvent(timestamp, "wm_on_paused_called"))
-            if "com.miui.home: NativeAlloc concurrent copying" in line:
+            elif "com.miui.home: NativeAlloc concurrent copying" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
                 parsed_data.append(GcEvent(timestamp, "NativeAlloc"))
-            if "com.miui.home: Explicit concurrent copying GC" in line:
+            elif "com.miui.home: Explicit concurrent copying GC" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
@@ -110,6 +127,7 @@ def parseDataFromFile(file_path):
 def drawFigure(file_path):
     global lineNativeAllocGc
     plt.figure(file_path)
+    ax1 = plt.subplot()
     parsed_data = parseDataFromFile(file_path)
     time = []
     timeLabel = []
@@ -137,20 +155,35 @@ def drawFigure(file_path):
             curBytes = record.currentNativeByte()
             if curBytes > maxY:
                 maxY = curBytes
-    lineJava, = plt.plot(x, y)
-    lineNative, = plt.plot(x, y_curNative, linewidth=0.5)
+    lineJava, = ax1.plot(x, y)
+    lineNative, = ax1.plot(x, y_curNative, linewidth=0.5)
     yCurNativeMaxIndex = np.argmax(y_curNative)
-    plt.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
-    plt.annotate(
+    ax1.scatter(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex], color='red')
+    ax1.annotate(
         f'max:{y_curNative[yCurNativeMaxIndex]:.0f}M',
         xy=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]),
         xytext=(x[yCurNativeMaxIndex], y_curNative[yCurNativeMaxIndex]))
     yCurNativeMinIndex = np.argmin(y_curNative)
-    plt.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='red')
-    plt.annotate(
-        f'min:{y_curNative[yCurNativeMinIndex]:.0f}M',
-        xy=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]),
-        xytext=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]))
+    ax1.scatter(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex], color='red')
+
+    x1 = []
+    y1 = []
+    minUrgency = sys.maxsize
+    maxUrgency = 0.0
+    for record in parsed_data:
+        if isinstance(record, GcUrgencyEvent):
+            x1.append(record.time - minTime)
+            y1.append(record.urgency)
+            if record.urgency < minUrgency:
+                minUrgency = record.urgency
+            elif record.urgency > maxUrgency:
+                maxUrgency = record.urgency
+    ax2 = ax1.twinx()
+    ax2.plot(x1, y1)
+    # plt.annotate(
+    #     f'min:{y_curNative[yCurNativeMinIndex]:.0f}M',
+    #     xy=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]),
+    #     xytext=(x[yCurNativeMinIndex], y_curNative[yCurNativeMinIndex]))
     # plt.xticks(time, timeLabel, rotation=90)
     x2 = []
     y2 = []
@@ -165,9 +198,9 @@ def drawFigure(file_path):
             y2.append(maxY + 20)
             lifeCount = lifeCount + 1
             if "wm_on_resume_called" in record.event:
-                plt.plot(x2, y2, linestyle='dotted', color='r')
+                ax1.plot(x2, y2, linestyle='dotted', color='r')
             else:
-                plt.plot(x2, y2, linestyle='dotted', color='b')
+                ax1.plot(x2, y2, linestyle='dotted', color='b')
     x3 = []
     y3 = []
     gcCount = 0
@@ -181,9 +214,9 @@ def drawFigure(file_path):
             y3.append(maxY)
             gcCount = gcCount + 1
             if "NativeAlloc" in record.event:
-                lineNativeAllocGc, = plt.plot(x3, y3, color='r', linewidth=2)
+                lineNativeAllocGc, = ax1.plot(x3, y3, color='r', linewidth=2)
             else:
-                plt.plot(x3, y3, color='b', linewidth=2)
+                ax1.plot(x3, y3, color='b', linewidth=2)
     yCurNativeAverage = np.average(y_curNative)
     yCurJavaAverage = np.average(y)
     timeElapse = maxTime - minTime
