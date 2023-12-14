@@ -160,6 +160,8 @@ def parseDataFromFile(file_path):
 
 def drawFigure(file_path):
     global lineNativeAllocGc
+    global lineResumeEvent
+    global linePauseEvent
     plt.figure(file_path)
     ax1 = plt.subplot()
     parsed_data = parseDataFromFile(file_path)
@@ -179,6 +181,7 @@ def drawFigure(file_path):
     x = []
     y = []
     y_curNative = []
+    y_newNative = []
     y_Adj = []
     maxY = 0.0
     for record in parsed_data:
@@ -187,12 +190,14 @@ def drawFigure(file_path):
             x.append(record.time - minTime)
             y.append(record.javaAlloc)
             y_curNative.append(record.currentNativeByte())
+            y_newNative.append(record.newNativeBytes)
             y_Adj.append(record.adjStartBytes)
             curBytes = record.currentNativeByte()
             if curBytes > maxY:
                 maxY = curBytes
     lineJava, = ax1.plot(x, y)
     lineAdj, = ax1.plot(x, y_Adj)
+    lineNewNative, = ax1.plot(x, y_newNative)
     lineNative, = ax1.plot(x, y_curNative, linewidth=0.5, color='green')
 
     yCurNativeMaxIndex = np.argmax(y_curNative)
@@ -245,9 +250,9 @@ def drawFigure(file_path):
             y2.append(maxY + 20)
             lifeCount = lifeCount + 1
             if "wm_on_resume_called" in record.event:
-                ax1.plot(x2, y2, linestyle='dotted', color='r')
+                lineResumeEvent, = ax1.plot(x2, y2, linestyle='dotted', color='r')
             else:
-                ax1.plot(x2, y2, linestyle='dotted', color='b')
+                linePauseEvent, = ax1.plot(x2, y2, linestyle='dotted', color='b')
     x3 = []
     y3 = []
     gcCount = 0
@@ -265,15 +270,16 @@ def drawFigure(file_path):
             else:
                 ax1.plot(x3, y3, color='b', linewidth=2)
     yCurNativeAverage = np.average(y_curNative)
+    yNewNativeAverage = np.average(y_newNative)
     yCurAdjAverage = np.average(y_Adj)
     yCurJavaAverage = np.average(y)
     timeElapse = maxTime - minTime
-    info = f'Native avg:{yCurNativeAverage:.1f}M  Java avg:{yCurJavaAverage:.1f}M Adj avg:{yCurAdjAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
+    info = f'Native avg:{yCurNativeAverage:.1f}M  newNative avg:{yNewNativeAverage:.1f}M Java avg:{yCurJavaAverage:.1f}M Adj avg:{yCurAdjAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
            f'\nGc:{gcCount}  request:{requestCount} urgency:{urgencyCount} LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
     ax1.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
     ax1.legend(
-        [lineNative, lineAdj, lineJava, lineNativeAllocGc],
-        ["native", "adjStart", "java", "NativeAllocGc"],
+        [lineNative, lineNewNative, lineAdj, lineJava, lineNativeAllocGc, lineResumeEvent, linePauseEvent],
+        ["native", "NewNative", "adjStart", "java", "NativeAllocGc", "home resume", "home pause"],
         bbox_to_anchor=(1, 1), loc=1, borderaxespad=0)
     plt.grid()
 
@@ -282,6 +288,8 @@ if __name__ == '__main__':
     # drawFigure('t/log.txt')
     # drawFigure('t/log2.txt')
     # drawFigure('u/log2.txt')
-    drawFigure('u/log4.txt')
-    drawFigure('t/log4.txt')
+    # drawFigure('u/log_16.txt')
+    # drawFigure('t/log_16.txt')
+    drawFigure('u/log_16_4.txt')
+    drawFigure('t/log_16_4.txt')
     plt.show()
