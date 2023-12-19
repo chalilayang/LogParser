@@ -277,10 +277,10 @@ def drawFigure(file_path):
     info = f'Native avg:{yCurNativeAverage:.1f}M  newNative avg:{yNewNativeAverage:.1f}M Java avg:{yCurJavaAverage:.1f}M Adj avg:{yCurAdjAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
            f'\nGc:{gcCount}  request:{requestCount} urgency:{urgencyCount} LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
     ax1.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
-    ax1.legend(
-        [lineNative, lineNewNative, lineAdj, lineJava, lineNativeAllocGc, lineResumeEvent, linePauseEvent],
-        ["native", "NewNative", "adjStart", "java", "NativeAllocGc", "home resume", "home pause"],
-        bbox_to_anchor=(1, 1), loc=1, borderaxespad=0)
+    # ax1.legend(
+    #     [lineNative, lineNewNative, lineAdj, lineJava, lineNativeAllocGc, lineResumeEvent, linePauseEvent],
+    #     ["native", "NewNative", "adjStart", "java", "NativeAllocGc", "home resume", "home pause"],
+    #     bbox_to_anchor=(1, 1), loc=1, borderaxespad=0)
     plt.grid()
 
 
@@ -305,8 +305,7 @@ if __name__ == '__main__':
     # drawFigure('u/log_16_3_ext.txt')
     # drawFigure('u/log_16_4_ext.txt')
     # drawFigure('u/log_16_5_ext.txt')
-    # drawFigure('u_tapk/log_16_4_ext.txt')
-    # drawFigure('u_tapk/log_16_5_ext.txt')
+
     # drawFigure('t_uapk/log_16_1_ext.txt')
     # drawFigure('t_uapk/log_16_2_ext.txt')
     # drawFigure('t_uapk/log_16_3_ext.txt')
@@ -317,9 +316,21 @@ if __name__ == '__main__':
     # drawFigure('u_uapk/log_16_3.txt')
     # drawFigure('u_uapk/log_16_4.txt')
     # drawFigure('u_uapk/log_16_5.txt')
-    drawFigure('t_tapk/log_16_1.txt')
-    drawFigure('t_tapk/log_16_2.txt')
-    drawFigure('t_tapk/log_16_3.txt')
-    drawFigure('t_tapk/log_16_4.txt')
-    drawFigure('t_tapk/log_16_5.txt')
+
+    # drawFigure('u_tapk/log_16_1_ext.txt')
+    # drawFigure('u_tapk/log_16_2_ext.txt')
+    # drawFigure('u_tapk/log_16_3_ext.txt')
+    # drawFigure('u_tapk/log_16_4_ext.txt')
+    # drawFigure('u_tapk/log_16_5_ext.txt')
+    # drawFigure('t_tapk/log_16_1.txt')
+    # drawFigure('t_tapk/log_16_2.txt')
+    # drawFigure('t_tapk/log_16_3.txt')
+    # drawFigure('t_tapk/log_16_4.txt')
+    # drawFigure('t_tapk/log_16_5.txt')
+    # drawFigure('u_uapk/log_16_test4.txt')
+    drawFigure('test.txt')
+    drawFigure('test2.txt')
+    drawFigure('test3.txt')
+    drawFigure('test4.txt')
+    drawFigure('test5.txt')
     plt.show()
