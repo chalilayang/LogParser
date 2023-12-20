@@ -54,6 +54,26 @@ class RequestEvent(object):
         self.time = time
 
 
+class GetTaskShapShotEvent(object):
+    def __init__(self, time):
+        self.time = time
+
+
+class CreateTaskEvent(object):
+    def __init__(self, time):
+        self.time = time
+
+
+class GetTaskEvent2(object):
+    def __init__(self, time):
+        self.time = time
+
+
+class BackgroundEvent(object):
+    def __init__(self, time):
+        self.time = time
+
+
 MB = 1024 * 1024
 
 GetBytesAllocated = "GetBytesAllocated:"
@@ -135,6 +155,26 @@ def parseDataFromFile(file_path):
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
                 timestamp = datetime_obj.timestamp()
                 parsed_data.append(RequestEvent(timestamp))
+            elif "getTaskSnapshotInstance" in line:
+                time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
+                datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
+                timestamp = datetime_obj.timestamp()
+                parsed_data.append(GetTaskShapShotEvent(timestamp))
+            elif "createTaskSnapshot" in line:
+                time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
+                datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
+                timestamp = datetime_obj.timestamp()
+                parsed_data.append(CreateTaskEvent(timestamp))
+            elif "getTaskSnapshot:" in line:
+                time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
+                datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
+                timestamp = datetime_obj.timestamp()
+                parsed_data.append(GetTaskEvent2(timestamp))
+            elif "onTaskStackChangedBackground" in line:
+                time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
+                datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
+                timestamp = datetime_obj.timestamp()
+                parsed_data.append(BackgroundEvent(timestamp))
             elif "wm_on_resume_called" in line and "com.miui.home" in line:
                 time = "2023-" + line.split(" ")[0] + " " + line.split(" ")[1]
                 datetime_obj = datetime.strptime(time, "%Y-%m-%d %H:%M:%S.%f")
@@ -269,13 +309,28 @@ def drawFigure(file_path):
                 lineNativeAllocGc, = ax1.plot(x3, y3, color='r', linewidth=2)
             else:
                 ax1.plot(x3, y3, color='b', linewidth=2)
+
+    getTaskCount = 0
+    getTaskCount2 = 0
+    createTaskCount = 0
+    backCount = 0
+    for record in parsed_data:
+        if isinstance(record, GetTaskShapShotEvent):
+            getTaskCount = getTaskCount + 1
+        elif isinstance(record, GetTaskEvent2):
+            getTaskCount2 = getTaskCount2 + 1
+        elif isinstance(record, BackgroundEvent):
+            backCount = backCount + 1
+        elif isinstance(record, CreateTaskEvent):
+            createTaskCount = createTaskCount + 1
+
     yCurNativeAverage = np.average(y_curNative)
     yNewNativeAverage = np.average(y_newNative)
     yCurAdjAverage = np.average(y_Adj)
     yCurJavaAverage = np.average(y)
     timeElapse = maxTime - minTime
-    info = f'Native avg:{yCurNativeAverage:.1f}M  newNative avg:{yNewNativeAverage:.1f}M Java avg:{yCurJavaAverage:.1f}M Adj avg:{yCurAdjAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
-           f'\nGc:{gcCount}  request:{requestCount} urgency:{urgencyCount} LifeEvent:{lifeCount / 2}  Time:{timeElapse:.1f}s'
+    info = f'Native :{yCurNativeAverage:.1f}M  newNative :{yNewNativeAverage:.1f}M Java :{yCurJavaAverage:.1f}M Adj :{yCurAdjAverage:.1f}M CheckGC:{checkGCCount:.0f}' \
+           f'\nGc:{gcCount}  request:{requestCount} urgency:{urgencyCount} LifeEvent:{lifeCount / 2}  getTask:{getTaskCount:.1f} getTaskCount2:{getTaskCount2:.1f} createTask:{createTaskCount:.1f} back:{backCount:.1f}  Time:{timeElapse:.1f}s'
     ax1.text(x[0], y_curNative[yCurNativeMaxIndex] + 40, info, fontdict={'size': 12, 'color': 'red'})
     # ax1.legend(
     #     [lineNative, lineNewNative, lineAdj, lineJava, lineNativeAllocGc, lineResumeEvent, linePauseEvent],
@@ -328,9 +383,25 @@ if __name__ == '__main__':
     # drawFigure('t_tapk/log_16_4.txt')
     # drawFigure('t_tapk/log_16_5.txt')
     # drawFigure('u_uapk/log_16_test4.txt')
-    drawFigure('test.txt')
-    drawFigure('test2.txt')
-    drawFigure('test3.txt')
-    drawFigure('test4.txt')
-    drawFigure('test5.txt')
+    # drawFigure('test8.txt')
+    # drawFigure('test7.txt')
+    # drawFigure('test9.txt')
+    # drawFigure('test19.txt')
+    # drawFigure('test20.txt')
+    # drawFigure('test21.txt')
+    # drawFigure('test23.txt')
+    # drawFigure('test25.txt')
+    # drawFigure('test26.txt')
+    drawFigure('test29.txt')
+    drawFigure('test28.txt')
+    # drawFigure('test6.txt')
+    # drawFigure('test2.txt')
+    # drawFigure('test3.txt')
+    # drawFigure('test4.txt')
+    # drawFigure('test5.txt')
+    # drawFigure('t/test3.txt')
+    # drawFigure('u/test2.txt')
+    # drawFigure('u/test3.txt')
+    # drawFigure('u/test4.txt')
+    # drawFigure('u/test5.txt')
     plt.show()
