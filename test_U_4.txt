@@ -1,0 +1,981 @@
+12-21 17:29:55.397  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:29:55.408  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,3]
+12-21 17:29:55.513  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:55.529  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:55.529  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:55.530  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:55.592  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 157580 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 9201925 HeapGrowthMultiplier: 3
+12-21 17:29:55.592  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.285719 current_native_bytes is 70041279
+12-21 17:29:55.692  3305  8066 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 1005300 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 9498434 HeapGrowthMultiplier: 3
+12-21 17:29:55.693  3305  8066 I com.miui.home: CheckGCForNative gc_urgency 0.307894 current_native_bytes is 70888999
+12-21 17:29:55.903  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 2005444 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 9940707 HeapGrowthMultiplier: 3
+12-21 17:29:55.903  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.336902 current_native_bytes is 71889143
+12-21 17:29:56.045  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:29:56.045  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:29:56.048  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:29:56.048  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:29:56.157  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 2720312 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10176981 HeapGrowthMultiplier: 3
+12-21 17:29:56.157  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.355178 current_native_bytes is 72604011
+12-21 17:29:56.251  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 12825496 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10186010 HeapGrowthMultiplier: 3
+12-21 17:29:56.251  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.510988 current_native_bytes is 82709195
+12-21 17:29:56.255  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 23532632 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10194968 HeapGrowthMultiplier: 3
+12-21 17:29:56.256  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.676062 current_native_bytes is 93416331
+12-21 17:29:56.256  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:29:56.256  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:29:56.293  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 23533656 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10209255 HeapGrowthMultiplier: 3
+12-21 17:29:56.293  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.676517 current_native_bytes is 93417355
+12-21 17:29:56.298  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 34240600 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10209447 HeapGrowthMultiplier: 3
+12-21 17:29:56.299  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.841318 current_native_bytes is 104124299
+12-21 17:29:56.299  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:29:56.299  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:29:56.332  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 34241944 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10209447 HeapGrowthMultiplier: 3
+12-21 17:29:56.332  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.841339 current_native_bytes is 104125643
+12-21 17:29:56.336  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 44948888 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10216142 HeapGrowthMultiplier: 3
+12-21 17:29:56.336  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 1.00634 current_native_bytes is 114832587
+12-21 17:29:56.336  3305  3573 I com.miui.home: CheckGCForNative requested 1
+12-21 17:29:56.423  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32485710 NativeAllocationGcWatermark: 10497436 java_gc_start_bytes: 16739556 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 69883699 new_native_bytes: 34088640 add_bytes_allowed: 31492308 is_gc_concurrent: 1 target_footprint_: 16870628 GetBytesAllocated: 10419348 HeapGrowthMultiplier: 3
+12-21 17:29:56.423  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.84544 current_native_bytes is 103972339
+12-21 17:29:56.476  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 32690(1522KB) AllocSpace objects, 7(204KB) LOS objects, 50% free, 8557KB/16MB, paused 390us,268us total 139.364ms
+12-21 17:29:56.760  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,69]
+12-21 17:29:56.778  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:29:56.841  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:29:56.841  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:29:56.955  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 9995108 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10138564 HeapGrowthMultiplier: 3
+12-21 17:29:56.955  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.457614 current_native_bytes is 114051223
+12-21 17:29:56.956  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:29:56.956  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 20702084 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10138756 HeapGrowthMultiplier: 3
+12-21 17:29:56.956  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.619456 current_native_bytes is 124758199
+12-21 17:29:56.957  3305  3358 I cccccc  : getTaskSnapshot:
+12-21 17:29:56.958  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 20702788 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10141571 HeapGrowthMultiplier: 3
+12-21 17:29:56.958  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.619552 current_native_bytes is 124758903
+12-21 17:29:56.960  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:29:57.071  8047  8047 I wm_on_application_create_called: [0,com.autonavi.minimap,1142]
+12-21 17:29:57.089  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 10025732 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10501245 HeapGrowthMultiplier: 3
+12-21 17:29:57.089  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.469041 current_native_bytes is 114081847
+12-21 17:29:57.095  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:29:57.256  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 10037572 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10603964 HeapGrowthMultiplier: 3
+12-21 17:29:57.256  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.472325 current_native_bytes is 114093687
+12-21 17:29:57.414  8140  8140 I wm_on_application_create_called: [0,com.autonavi.minimap,985]
+12-21 17:29:57.422  8047  8047 I wm_on_create_called: [0,239531966,com.autonavi.map.activity.SplashActivity,performCreate,298]
+12-21 17:29:57.445  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 20764004 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10697846 HeapGrowthMultiplier: 3
+12-21 17:29:57.445  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.637293 current_native_bytes is 124820119
+12-21 17:29:57.446  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:29:57.446  3305  3996 I cccccc  : getTaskSnapshot:
+12-21 17:29:57.446  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 31470116 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10698038 HeapGrowthMultiplier: 3
+12-21 17:29:57.446  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.799122 current_native_bytes is 135526231
+12-21 17:29:57.447  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 42177060 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10698230 HeapGrowthMultiplier: 3
+12-21 17:29:57.447  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.960964 current_native_bytes is 146233175
+12-21 17:29:57.448  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:29:57.560  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 20765476 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 10723185 HeapGrowthMultiplier: 3
+12-21 17:29:57.560  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.638081 current_native_bytes is 124821591
+12-21 17:29:57.597  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:57.599  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:57.815  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:29:57.863  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:57.868  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:57.948  8047  8047 I wm_on_create_called: [0,1303396,com.autonavi.map.activity.NewMapActivity,performCreate,423]
+12-21 17:29:57.978  8047  8047 I wm_on_start_called: [0,1303396,com.autonavi.map.activity.NewMapActivity,handleStartActivity,30]
+12-21 17:29:57.985  8047  8047 I wm_on_resume_called: [0,1303396,com.autonavi.map.activity.NewMapActivity,RESUME_ACTIVITY,4]
+12-21 17:29:57.998  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,3]
+12-21 17:29:58.143  8047  8047 I wm_on_destroy_called: [0,239531966,com.autonavi.map.activity.SplashActivity,performDestroy,1]
+12-21 17:29:58.145  8047  8047 I wm_on_paused_called: [0,1303396,com.autonavi.map.activity.NewMapActivity,performPause,2]
+12-21 17:29:58.196  8047  8047 I wm_on_stop_called: [0,1303396,com.autonavi.map.activity.NewMapActivity,STOP_ACTIVITY_ITEM,8]
+12-21 17:29:58.205  3305  3358 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:58.211  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:29:58.237  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:29:58.238  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:29:58.265  8047  8047 I wm_on_idle_called: com.autonavi.map.activity.NewMapActivity
+12-21 17:29:58.266  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 32123648 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 11950490 HeapGrowthMultiplier: 3
+12-21 17:29:58.266  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.846873 current_native_bytes is 136179763
+12-21 17:29:58.278  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 21418816 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 11960790 HeapGrowthMultiplier: 3
+12-21 17:29:58.278  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.685369 current_native_bytes is 125474931
+12-21 17:29:58.500  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 21512448 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 12363960 HeapGrowthMultiplier: 3
+12-21 17:29:58.500  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.698973 current_native_bytes is 125568563
+12-21 17:29:58.600  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 21577920 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 12581999 HeapGrowthMultiplier: 3
+12-21 17:29:58.600  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.706554 current_native_bytes is 125634035
+12-21 17:29:58.621  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:29:58.621  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:29:58.732  3305  3305 I wm_on_stop_called: [0,206494651,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,7]
+12-21 17:29:58.954  8475  8475 I wm_on_create_called: [0,85749646,fm.qingting.qtradio.WelcomeActivity,performCreate,73]
+12-21 17:29:58.955  8475  8475 I wm_on_start_called: [0,85749646,fm.qingting.qtradio.WelcomeActivity,handleStartActivity,0]
+12-21 17:29:58.960  8475  8475 I wm_on_resume_called: [0,85749646,fm.qingting.qtradio.WelcomeActivity,RESUME_ACTIVITY,4]
+12-21 17:29:58.988  8475  8475 I wm_on_top_resumed_gained_called: [85749646,fm.qingting.qtradio.WelcomeActivity,topStateChangedWhenResumed]
+12-21 17:29:59.308  3305  3305 I wm_on_restart_called: [0,206494651,com.miui.home.launcher.Launcher,,0]
+12-21 17:29:59.310  3305  3305 I wm_on_start_called: [0,206494651,com.miui.home.launcher.Launcher,handleStartActivity,1]
+12-21 17:29:59.332  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,20]
+12-21 17:29:59.436  8475  8475 I wm_on_top_resumed_lost_called: [85749646,fm.qingting.qtradio.WelcomeActivity,topStateChangedWhenResumed]
+12-21 17:29:59.439  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:29:59.481  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:29:59.554  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 32547808 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 14049482 HeapGrowthMultiplier: 3
+12-21 17:29:59.554  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.916726 current_native_bytes is 136603923
+12-21 17:29:59.554  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:29:59.556  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 43254752 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 14055250 HeapGrowthMultiplier: 3
+12-21 17:29:59.556  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 1.07874 current_native_bytes is 147310867
+12-21 17:29:59.556  3305  3996 I com.miui.home: CheckGCForNative requested 1
+12-21 17:29:59.592  3305  3996 I cccccc  : getTaskSnapshot:
+12-21 17:29:59.592  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 43291296 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 14104155 HeapGrowthMultiplier: 3
+12-21 17:29:59.593  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 1.08077 current_native_bytes is 147347411
+12-21 17:29:59.593  3305  3996 I com.miui.home: CheckGCForNative requested 1
+12-21 17:29:59.593  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:29:59.700  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33079651 NativeAllocationGcWatermark: 10579214 java_gc_start_bytes: 17210830 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 104056115 new_native_bytes: 32688960 add_bytes_allowed: 31737642 is_gc_concurrent: 1 target_footprint_: 17524849 GetBytesAllocated: 14175671 HeapGrowthMultiplier: 3
+12-21 17:29:59.700  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.922674 current_native_bytes is 136745075
+12-21 17:29:59.768  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 122487(5067KB) AllocSpace objects, 6(312KB) LOS objects, 50% free, 8480KB/16MB, paused 717us,73us total 211.888ms
+12-21 17:29:59.911  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 125641407
+12-21 17:29:59.964  8475  8475 I wm_on_idle_called: fm.qingting.qtradio.WelcomeActivity
+12-21 17:30:00.031  3305  3358 I cccccc  : getTaskSnapshot:
+12-21 17:30:00.036  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 10769256 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 8907672 HeapGrowthMultiplier: 3
+12-21 17:30:00.036  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.432245 current_native_bytes is 136410663
+12-21 17:30:00.036  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:00.037  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 21459464 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 8907864 HeapGrowthMultiplier: 3
+12-21 17:30:00.037  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.593882 current_native_bytes is 147100871
+12-21 17:30:00.054  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 21428520 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 8907864 HeapGrowthMultiplier: 3
+12-21 17:30:00.055  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.593414 current_native_bytes is 147069927
+12-21 17:30:00.056  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:00.069  8475  8475 I wm_on_paused_called: [0,85749646,fm.qingting.qtradio.WelcomeActivity,performPause,1]
+12-21 17:30:00.130  8475  8475 I wm_on_stop_called: [0,85749646,fm.qingting.qtradio.WelcomeActivity,STOP_ACTIVITY_ITEM,4]
+12-21 17:30:00.204  3305  3358 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:00.207  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:00.252  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 10742416 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 9153976 HeapGrowthMultiplier: 3
+12-21 17:30:00.254  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.439287 current_native_bytes is 136383823
+12-21 17:30:00.407  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:00.411  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:00.418  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:00.418  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:00.523  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:00.527  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:00.541  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:00.541  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:00.543  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 22613668 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 10001792 HeapGrowthMultiplier: 3
+12-21 17:30:00.543  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.644412 current_native_bytes is 148255075
+12-21 17:30:00.744  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 13612152 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 10429045 HeapGrowthMultiplier: 3
+12-21 17:30:00.744  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.521233 current_native_bytes is 139253559
+12-21 17:30:00.933  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 13683160 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 10679540 HeapGrowthMultiplier: 3
+12-21 17:30:00.933  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.529881 current_native_bytes is 139324567
+12-21 17:30:01.042  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:01.043  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:01.066  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 13914520 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 10895770 HeapGrowthMultiplier: 3
+12-21 17:30:01.066  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.539918 current_native_bytes is 139555927
+12-21 17:30:01.279  8811  8811 I wm_on_application_create_called: [0,com.xiaomi.bluetooth,230]
+12-21 17:30:01.968  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,20]
+12-21 17:30:01.986  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:02.078  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 24361764 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 12095435 HeapGrowthMultiplier: 3
+12-21 17:30:02.078  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.734153 current_native_bytes is 150003171
+12-21 17:30:02.079  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:02.080  3305  3359 I cccccc  : getTaskSnapshot:
+12-21 17:30:02.080  3305  3359 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 35067908 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 12112011 HeapGrowthMultiplier: 3
+12-21 17:30:02.080  3305  3359 I com.miui.home: CheckGCForNative gc_urgency 0.896526 current_native_bytes is 160709315
+12-21 17:30:02.080  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:02.081  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 45776452 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 12133275 HeapGrowthMultiplier: 3
+12-21 17:30:02.081  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 1.05908 current_native_bytes is 171417859
+12-21 17:30:02.081  3305  3305 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:02.178  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 24484260 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 12378466 HeapGrowthMultiplier: 3
+12-21 17:30:02.178  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.744563 current_native_bytes is 150125667
+12-21 17:30:02.244  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33069729 NativeAllocationGcWatermark: 10559577 java_gc_start_bytes: 17230364 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 125641407 new_native_bytes: 24468580 add_bytes_allowed: 31678731 is_gc_concurrent: 1 target_footprint_: 17367757 GetBytesAllocated: 12488762 HeapGrowthMultiplier: 3
+12-21 17:30:02.244  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.747662 current_native_bytes is 150109987
+12-21 17:30:02.281  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 82271(3489KB) AllocSpace objects, 4(208KB) LOS objects, 49% free, 8514KB/16MB, paused 2.142ms,79us total 197.983ms
+12-21 17:30:02.376  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:02.451  8839  8839 I wm_on_application_create_called: [0,com.ss.android.ugc.aweme,777]
+12-21 17:30:02.522  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 127623895
+12-21 17:30:02.585  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:02.922  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:02.974  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:02.975  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:03.074  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:03.175  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:03.176  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:03.428  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:03.428  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:03.435  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 12251340 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 10238659 HeapGrowthMultiplier: 3
+12-21 17:30:03.435  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.497056 current_native_bytes is 139875235
+12-21 17:30:03.459  3305  3543 E cccccc  : createTaskSnapshot:
+12-21 17:30:03.459  3305  3543 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:03.470  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 1604492 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 10338430 HeapGrowthMultiplier: 3
+12-21 17:30:03.470  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 0.33841 current_native_bytes is 129228387
+12-21 17:30:03.552  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 1669060 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 10535181 HeapGrowthMultiplier: 3
+12-21 17:30:03.552  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.345366 current_native_bytes is 129292955
+12-21 17:30:03.686  3305  3543 E cccccc  : createTaskSnapshot:
+12-21 17:30:03.686  3305  3543 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:03.722  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 1947296 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 11039015 HeapGrowthMultiplier: 3
+12-21 17:30:03.722  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.364893 current_native_bytes is 129571191
+12-21 17:30:03.797  8839  8839 I wm_on_create_called: [0,258941228,com.ss.android.ugc.aweme.splash.SplashActivity,performCreate,1084]
+12-21 17:30:04.088  8839  8839 I wm_on_start_called: [0,258941228,com.ss.android.ugc.aweme.splash.SplashActivity,handleStartActivity,286]
+12-21 17:30:04.128  9188  9188 I wm_on_create_called: [0,222562426,com.eg.android.AlipayGphone.AlipayLogin,performCreate,106]
+12-21 17:30:04.135  9188  9188 I wm_on_start_called: [0,222562426,com.eg.android.AlipayGphone.AlipayLogin,handleStartActivity,7]
+12-21 17:30:04.143  9188  9188 I wm_on_resume_called: [0,222562426,com.eg.android.AlipayGphone.AlipayLogin,RESUME_ACTIVITY,5]
+12-21 17:30:04.172  9188  9188 I wm_on_top_resumed_gained_called: [222562426,com.eg.android.AlipayGphone.AlipayLogin,topStateChangedWhenResumed]
+12-21 17:30:04.230  8839  8839 I wm_on_resume_called: [0,258941228,com.ss.android.ugc.aweme.splash.SplashActivity,RESUME_ACTIVITY,131]
+12-21 17:30:04.388  8839  8839 I wm_on_top_resumed_gained_called: [258941228,com.ss.android.ugc.aweme.splash.SplashActivity,topStateChangedWhenResumed]
+12-21 17:30:04.650  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,23]
+12-21 17:30:04.671  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:04.824  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 12637260 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 12465293 HeapGrowthMultiplier: 3
+12-21 17:30:04.824  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.570614 current_native_bytes is 140261155
+12-21 17:30:04.824  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:04.827  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 23344428 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 12477132 HeapGrowthMultiplier: 3
+12-21 17:30:04.827  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.733493 current_native_bytes is 150968323
+12-21 17:30:04.846  3305  3996 I cccccc  : getTaskSnapshot:
+12-21 17:30:04.846  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 23363276 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 12514763 HeapGrowthMultiplier: 3
+12-21 17:30:04.847  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.734922 current_native_bytes is 150987171
+12-21 17:30:04.864  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:04.894  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 12749452 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 12612716 HeapGrowthMultiplier: 3
+12-21 17:30:04.895  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.576722 current_native_bytes is 140373347
+12-21 17:30:04.895  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 12751500 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 12612716 HeapGrowthMultiplier: 3
+12-21 17:30:04.895  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.576753 current_native_bytes is 140375395
+12-21 17:30:05.113  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:05.239  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 12784588 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 12783577 HeapGrowthMultiplier: 3
+12-21 17:30:05.239  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.582444 current_native_bytes is 140408483
+12-21 17:30:05.331  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:05.793  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:05.826  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:05.828  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:05.835  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,3]
+12-21 17:30:05.946  8839  8839 I wm_on_top_resumed_lost_called: [258941228,com.ss.android.ugc.aweme.splash.SplashActivity,topStateChangedWhenResumed]
+12-21 17:30:06.115  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:06.120  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:06.150  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 13610360 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 13878793 HeapGrowthMultiplier: 3
+12-21 17:30:06.150  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.628247 current_native_bytes is 141234255
+12-21 17:30:06.228  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 13739896 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14048085 HeapGrowthMultiplier: 3
+12-21 17:30:06.228  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.635355 current_native_bytes is 141363791
+12-21 17:30:06.253  8839  8839 I wm_on_paused_called: [0,258941228,com.ss.android.ugc.aweme.splash.SplashActivity,performPause,162]
+12-21 17:30:06.326  9461  9461 I wm_on_application_create_called: [0,com.ss.android.ugc.aweme,830]
+12-21 17:30:06.386  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:06.386  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:06.454  3305  3543 E cccccc  : createTaskSnapshot:
+12-21 17:30:06.454  3305  3543 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:06.476  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 24449632 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14316293 HeapGrowthMultiplier: 3
+12-21 17:30:06.476  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 0.806132 current_native_bytes is 152073527
+12-21 17:30:06.483  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 26514208 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14328242 HeapGrowthMultiplier: 3
+12-21 17:30:06.483  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.837846 current_native_bytes is 154138103
+12-21 17:30:06.620  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 39017204 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14549550 HeapGrowthMultiplier: 3
+12-21 17:30:06.620  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 1.03443 current_native_bytes is 166641099
+12-21 17:30:06.620  3305  3543 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:06.620  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 27241716 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14549550 HeapGrowthMultiplier: 3
+12-21 17:30:06.620  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 0.855615 current_native_bytes is 154865611
+12-21 17:30:06.658  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 27744468 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14603727 HeapGrowthMultiplier: 3
+12-21 17:30:06.658  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 0.864895 current_native_bytes is 155368363
+12-21 17:30:06.827  8839  8839 I wm_on_stop_called: [0,258941228,com.ss.android.ugc.aweme.splash.SplashActivity,STOP_ACTIVITY_ITEM,366]
+12-21 17:30:06.929  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:06.929  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:06.934  9851  9851 I wm_on_create_called: [0,124058856,com.xunmeng.pinduoduo.ui.activity.MainFrameActivity,performCreate,145]
+12-21 17:30:07.003  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 29597388 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14928474 HeapGrowthMultiplier: 3
+12-21 17:30:07.003  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 0.902895 current_native_bytes is 157221283
+12-21 17:30:07.003  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 31048276 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14928474 HeapGrowthMultiplier: 3
+12-21 17:30:07.003  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 0.924927 current_native_bytes is 158672171
+12-21 17:30:07.020  3305  3543 I com.miui.home: CheckGCForNative adj_start_bytes: 32926432 NativeAllocationGcWatermark: 10568313 java_gc_start_bytes: 17073963 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 127623895 new_native_bytes: 42062932 add_bytes_allowed: 31704939 is_gc_concurrent: 1 target_footprint_: 17437646 GetBytesAllocated: 14928522 HeapGrowthMultiplier: 3
+12-21 17:30:07.020  3305  3543 I com.miui.home: CheckGCForNative gc_urgency 1.09219 current_native_bytes is 169686827
+12-21 17:30:07.020  3305  3543 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:07.048  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 134258(5707KB) AllocSpace objects, 8(344KB) LOS objects, 49% free, 8528KB/16MB, paused 191us,72us total 423.782ms
+12-21 17:30:07.300  3305  3358 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:07.326  3305  3358 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:07.334  9851  9851 I wm_on_create_called: [0,164853578,com.xunmeng.pinduoduo.ui.activity.HomeActivity,performCreate,96]
+12-21 17:30:07.431  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,18]
+12-21 17:30:07.447  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:07.452  9878  9878 I wm_on_application_create_called: [0,com.xiaomi.market,320]
+12-21 17:30:07.511  9851  9851 I wm_on_start_called: [0,164853578,com.xunmeng.pinduoduo.ui.activity.HomeActivity,handleStartActivity,172]
+12-21 17:30:07.521  9851  9851 I wm_on_resume_called: [0,164853578,com.xunmeng.pinduoduo.ui.activity.HomeActivity,RESUME_ACTIVITY,6]
+12-21 17:30:07.580  8839  8839 I wm_on_idle_called: com.ss.android.ugc.aweme.splash.SplashActivity
+12-21 17:30:07.622  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 155401951
+12-21 17:30:07.622  3305  9817 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:07.623  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 10708224 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 10255038 HeapGrowthMultiplier: 3
+12-21 17:30:07.623  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0.473889 current_native_bytes is 166110175
+12-21 17:30:07.639  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 15200 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 10305590 HeapGrowthMultiplier: 3
+12-21 17:30:07.639  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.31313 current_native_bytes is 155417151
+12-21 17:30:07.687  3305  3996 I cccccc  : getTaskSnapshot:
+12-21 17:30:07.690  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 10800944 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 10388475 HeapGrowthMultiplier: 3
+12-21 17:30:07.690  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.479347 current_native_bytes is 166202895
+12-21 17:30:07.694  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:07.742  9851  9851 I wm_on_top_resumed_gained_called: [164853578,com.xunmeng.pinduoduo.ui.activity.HomeActivity,topStateChangedWhenResumed]
+12-21 17:30:07.743  9851  9851 I wm_on_top_resumed_lost_called: [164853578,com.xunmeng.pinduoduo.ui.activity.HomeActivity,topStateChangedWhenResumed]
+12-21 17:30:07.745  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:07.920  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 961380 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 10945374 HeapGrowthMultiplier: 3
+12-21 17:30:07.920  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.346911 current_native_bytes is 156363331
+12-21 17:30:08.104  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 11701324 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 11213826 HeapGrowthMultiplier: 3
+12-21 17:30:08.104  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.518066 current_native_bytes is 167103275
+12-21 17:30:08.104  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:08.107  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 22408460 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 11214018 HeapGrowthMultiplier: 3
+12-21 17:30:08.107  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.68058 current_native_bytes is 177810411
+12-21 17:30:08.108  3305  9817 I cccccc  : getTaskSnapshot:
+12-21 17:30:08.112  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 22410700 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 11214018 HeapGrowthMultiplier: 3
+12-21 17:30:08.112  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0.680614 current_native_bytes is 177812651
+12-21 17:30:08.113  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:08.341  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:08.341  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:08.365  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 22174292 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 11478436 HeapGrowthMultiplier: 3
+12-21 17:30:08.365  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.685081 current_native_bytes is 177576243
+12-21 17:30:08.436  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:08.465  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:08.468  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:08.617  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,3]
+12-21 17:30:08.714  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 11597616 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 12060137 HeapGrowthMultiplier: 3
+12-21 17:30:08.715  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.542182 current_native_bytes is 166999567
+12-21 17:30:08.726  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:08.735  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:08.900  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 11809448 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 12447945 HeapGrowthMultiplier: 3
+12-21 17:30:08.917  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.557169 current_native_bytes is 167211399
+12-21 17:30:08.997  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:08.997  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:08.999  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:09.000  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:09.002  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 22547320 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 12554465 HeapGrowthMultiplier: 3
+12-21 17:30:09.002  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.723377 current_native_bytes is 177949271
+12-21 17:30:09.257  9851  9851 I wm_on_paused_called: [0,164853578,com.xunmeng.pinduoduo.ui.activity.HomeActivity,performPause,12]
+12-21 17:30:09.317  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 11913984 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 12775228 HeapGrowthMultiplier: 3
+12-21 17:30:09.317  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.56869 current_native_bytes is 167315935
+12-21 17:30:09.335  9851  9851 I wm_on_destroy_called: [0,124058856,com.xunmeng.pinduoduo.ui.activity.MainFrameActivity,performDestroy,11]
+12-21 17:30:10.446  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 12099232 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 13807293 HeapGrowthMultiplier: 3
+12-21 17:30:10.446  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.60283 current_native_bytes is 167501183
+12-21 17:30:10.497  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,27]
+12-21 17:30:10.512  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:10.515  3305  3571 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 12171136 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 14033796 HeapGrowthMultiplier: 3
+12-21 17:30:10.515  3305  3571 I com.miui.home: CheckGCForNative gc_urgency 0.610797 current_native_bytes is 167573087
+12-21 17:30:10.593 10366 10366 I wm_on_application_create_called: [0,com.smile.gifmaker,1075]
+12-21 17:30:10.613  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:10.613  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:10.734  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 22902440 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 14219495 HeapGrowthMultiplier: 3
+12-21 17:30:10.734  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.779309 current_native_bytes is 178304391
+12-21 17:30:10.734  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:10.738  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 33609384 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 14229262 HeapGrowthMultiplier: 3
+12-21 17:30:10.738  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.94211 current_native_bytes is 189011335
+12-21 17:30:10.887  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:10.899  3305  9817 I cccccc  : getTaskSnapshot:
+12-21 17:30:10.900  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 33739368 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 14341168 HeapGrowthMultiplier: 3
+12-21 17:30:10.900  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0.94748 current_native_bytes is 189141319
+12-21 17:30:10.901  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:10.989  9188  9188 I wm_on_top_resumed_lost_called: [222562426,com.eg.android.AlipayGphone.AlipayLogin,topStateChangedWhenResumed]
+12-21 17:30:11.017  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 23176936 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 14736899 HeapGrowthMultiplier: 3
+12-21 17:30:11.017  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.799181 current_native_bytes is 178578887
+12-21 17:30:11.236  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:11.358 10366 10366 I wm_on_create_called: [0,119101949,com.yxcorp.gifshow.HomeActivity,performCreate,645]
+12-21 17:30:11.480  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 23018256 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 15248118 HeapGrowthMultiplier: 3
+12-21 17:30:11.480  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.812291 current_native_bytes is 178420207
+12-21 17:30:11.540  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:11.560  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:11.563  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:11.610  9188  9188 I wm_on_paused_called: [0,222562426,com.eg.android.AlipayGphone.AlipayLogin,performPause,183]
+12-21 17:30:11.775  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:11.883 10421 10421 I wm_on_application_create_called: [0,com.xiaomi.mi_connect_service,916]
+12-21 17:30:11.963  9188  9188 I wm_on_stop_called: [0,222562426,com.eg.android.AlipayGphone.AlipayLogin,STOP_ACTIVITY_ITEM,15]
+12-21 17:30:11.983  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 23227580 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 15924896 HeapGrowthMultiplier: 3
+12-21 17:30:11.983  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.836011 current_native_bytes is 178629531
+12-21 17:30:12.244  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:12.262  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:12.384  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 23416404 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 16243113 HeapGrowthMultiplier: 3
+12-21 17:30:12.384  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.848537 current_native_bytes is 178818355
+12-21 17:30:12.575  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:12.575  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:12.577  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:12.577  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:12.581  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 32943405 NativeAllocationGcWatermark: 10571865 java_gc_start_bytes: 17085608 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 155401951 new_native_bytes: 34200020 add_bytes_allowed: 31715595 is_gc_concurrent: 1 target_footprint_: 17466062 GetBytesAllocated: 16467157 HeapGrowthMultiplier: 3
+12-21 17:30:12.581  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 1.01901 current_native_bytes is 189601971
+12-21 17:30:12.581  3305  3573 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:12.936  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:12.937  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:12.945  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 168909(7207KB) AllocSpace objects, 18(576KB) LOS objects, 49% free, 8925KB/17MB, paused 205us,29us total 363.809ms
+12-21 17:30:13.102 10722 10722 I wm_on_application_create_called: [0,com.eg.android.AlipayGphone,317]
+12-21 17:30:13.269  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 121404999
+12-21 17:30:13.314  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,19]
+12-21 17:30:13.333  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:13.362  3305  3571 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 130700 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10099620 HeapGrowthMultiplier: 3
+12-21 17:30:13.362  3305  3571 I com.miui.home: CheckGCForNative gc_urgency 0.301099 current_native_bytes is 121535699
+12-21 17:30:13.648  3305  4431 I cccccc  : getTaskSnapshot:
+12-21 17:30:13.648  3305  3998 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 10851956 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10873677 HeapGrowthMultiplier: 3
+12-21 17:30:13.648  3305  3998 I com.miui.home: CheckGCForNative gc_urgency 0.482783 current_native_bytes is 132256955
+12-21 17:30:13.648  3305  4431 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 21558004 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10890061 HeapGrowthMultiplier: 3
+12-21 17:30:13.648  3305  4431 I com.miui.home: CheckGCForNative gc_urgency 0.641806 current_native_bytes is 142963003
+12-21 17:30:13.648  3305  3998 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:13.649  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:13.649  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 32265300 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10898272 HeapGrowthMultiplier: 3
+12-21 17:30:13.649  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.800599 current_native_bytes is 153670299
+12-21 17:30:13.670  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:13.796 10742 10742 I wm_on_application_create_called: [0,com.tencent.mm,280]
+12-21 17:30:13.928  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 10937060 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11032068 HeapGrowthMultiplier: 3
+12-21 17:30:13.928  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.488734 current_native_bytes is 132342059
+12-21 17:30:14.117  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 10951276 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11104697 HeapGrowthMultiplier: 3
+12-21 17:30:14.117  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.491096 current_native_bytes is 132356275
+12-21 17:30:14.206  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:14.465  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:14.505  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:14.507  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:14.693  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,3]
+12-21 17:30:14.793  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:14.802  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:14.865 11431 11431 I wm_on_application_create_called: [0,com.android.permissioncontroller,202]
+12-21 17:30:15.247  3305  8066 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 11290556 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11961725 HeapGrowthMultiplier: 3
+12-21 17:30:15.247  3305  8066 I com.miui.home: CheckGCForNative gc_urgency 0.521502 current_native_bytes is 132695555
+12-21 17:30:15.528  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 11522816 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 12380970 HeapGrowthMultiplier: 3
+12-21 17:30:15.528  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.537357 current_native_bytes is 132927815
+12-21 17:30:15.554  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:15.554  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:15.556  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:15.556  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:15.571  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 22154464 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 12455671 HeapGrowthMultiplier: 3
+12-21 17:30:15.572  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.697002 current_native_bytes is 143559463
+12-21 17:30:15.784  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 11399000 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 12823840 HeapGrowthMultiplier: 3
+12-21 17:30:15.784  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.54864 current_native_bytes is 132803999
+12-21 17:30:15.951  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:15.951  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:16.028  9188  9188 I wm_on_idle_called: com.eg.android.AlipayGphone.AlipayLogin
+12-21 17:30:16.047 11707 11707 I wm_on_create_called: [0,141639913,com.tencent.mobileqq.activity.SplashActivity,performCreate,228]
+12-21 17:30:16.053  3305  3305 I wm_on_stop_called: [0,206494651,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,16]
+12-21 17:30:16.057 11707 11707 I wm_on_start_called: [0,141639913,com.tencent.mobileqq.activity.SplashActivity,handleStartActivity,9]
+12-21 17:30:16.085 11707 11707 I wm_on_resume_called: [0,141639913,com.tencent.mobileqq.activity.SplashActivity,RESUME_ACTIVITY,25]
+12-21 17:30:16.210 11707 11707 I wm_on_top_resumed_gained_called: [141639913,com.tencent.mobileqq.activity.SplashActivity,topStateChangedWhenResumed]
+12-21 17:30:16.369  3305  3305 I wm_on_restart_called: [0,206494651,com.miui.home.launcher.Launcher,,0]
+12-21 17:30:16.371  3305  3305 I wm_on_start_called: [0,206494651,com.miui.home.launcher.Launcher,handleStartActivity,2]
+12-21 17:30:16.390  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,17]
+12-21 17:30:16.422  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 11596512 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14050169 HeapGrowthMultiplier: 3
+12-21 17:30:16.422  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.587883 current_native_bytes is 133001511
+12-21 17:30:16.500  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:16.530 11707 11707 I wm_on_top_resumed_lost_called: [141639913,com.tencent.mobileqq.activity.SplashActivity,topStateChangedWhenResumed]
+12-21 17:30:16.548  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:16.561 11707 11707 I wm_on_idle_called: com.tencent.mobileqq.activity.SplashActivity
+12-21 17:30:16.760  3305  3998 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 22492452 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14234316 HeapGrowthMultiplier: 3
+12-21 17:30:16.760  3305  3998 I com.miui.home: CheckGCForNative gc_urgency 0.754683 current_native_bytes is 143897451
+12-21 17:30:16.761  3305  3998 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:16.764  3305  3998 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 33199396 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14240145 HeapGrowthMultiplier: 3
+12-21 17:30:16.764  3305  3998 I com.miui.home: CheckGCForNative gc_urgency 0.913404 current_native_bytes is 154604395
+12-21 17:30:16.900  3305  9817 I cccccc  : getTaskSnapshot:
+12-21 17:30:16.901  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 33300228 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14384383 HeapGrowthMultiplier: 3
+12-21 17:30:16.901  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0.919168 current_native_bytes is 154705227
+12-21 17:30:16.902  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:17.039  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 22606788 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14621467 HeapGrowthMultiplier: 3
+12-21 17:30:17.039  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.767842 current_native_bytes is 144011787
+12-21 17:30:17.184  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 22620228 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14857503 HeapGrowthMultiplier: 3
+12-21 17:30:17.184  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.775032 current_native_bytes is 144025227
+12-21 17:30:17.188 11417 11417 I wm_on_application_create_called: [0,com.eg.android.AlipayGphone,1176]
+12-21 17:30:17.218 11707 11707 I wm_on_paused_called: [0,141639913,com.tencent.mobileqq.activity.SplashActivity,performPause,6]
+12-21 17:30:17.298  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:17.383  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:17.430  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:17.593 11707 11707 I wm_on_create_called: [0,88289462,com.tencent.mobileqq.activity.LoginActivity,performCreate,299]
+12-21 17:30:17.658  3305 12150 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 22787084 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 15624534 HeapGrowthMultiplier: 3
+12-21 17:30:17.658  3305 12150 I com.miui.home: CheckGCForNative gc_urgency 0.800219 current_native_bytes is 144192083
+12-21 17:30:17.761  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:17.769  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:17.795 11707 11707 I wm_on_start_called: [0,88289462,com.tencent.mobileqq.activity.LoginActivity,handleStartActivity,164]
+12-21 17:30:17.815 11707 11707 I wm_on_resume_called: [0,88289462,com.tencent.mobileqq.activity.LoginActivity,RESUME_ACTIVITY,17]
+12-21 17:30:17.847 11707 11707 I wm_on_stop_called: [0,141639913,com.tencent.mobileqq.activity.SplashActivity,LIFECYCLER_STOP_ACTIVITY,4]
+12-21 17:30:17.870  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:17.872 11707 11707 I wm_on_destroy_called: [0,141639913,com.tencent.mobileqq.activity.SplashActivity,performDestroy,25]
+12-21 17:30:17.872  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:17.956 11707 11707 I wm_on_paused_called: [0,88289462,com.tencent.mobileqq.activity.LoginActivity,performPause,14]
+12-21 17:30:18.002 11707 11707 I wm_on_stop_called: [0,88289462,com.tencent.mobileqq.activity.LoginActivity,STOP_ACTIVITY_ITEM,45]
+12-21 17:30:18.026 12011 12011 I wm_on_application_create_called: [0,com.android.settings,401]
+12-21 17:30:18.057  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:18.057  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:18.128 11707 11707 I wm_on_idle_called: com.tencent.mobileqq.activity.LoginActivity
+12-21 17:30:18.186  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 33975304 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 16410356 HeapGrowthMultiplier: 3
+12-21 17:30:18.186  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.989166 current_native_bytes is 155380303
+12-21 17:30:18.220  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:18.241  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:18.361  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 23711904 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 16756985 HeapGrowthMultiplier: 3
+12-21 17:30:18.361  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.847452 current_native_bytes is 145116903
+12-21 17:30:18.453  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 23818100 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 16882900 HeapGrowthMultiplier: 3
+12-21 17:30:18.453  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.852753 current_native_bytes is 145223099
+12-21 17:30:18.600  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:18.600  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:18.650  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33765684 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 17755343 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 121404999 new_native_bytes: 23956820 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 17272206 HeapGrowthMultiplier: 3
+12-21 17:30:18.650  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.866337 current_native_bytes is 145361819
+12-21 17:30:18.901  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:18.901  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:19.467  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,18]
+12-21 17:30:19.487  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:19.528  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 143262311
+12-21 17:30:19.650  3305  3998 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 10712488 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10310649 HeapGrowthMultiplier: 3
+12-21 17:30:19.650  3305  3998 I com.miui.home: CheckGCForNative gc_urgency 0.458711 current_native_bytes is 153974799
+12-21 17:30:19.650  3305  3998 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:19.651  3305  3996 I cccccc  : getTaskSnapshot:
+12-21 17:30:19.651  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 21418408 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10310841 HeapGrowthMultiplier: 3
+12-21 17:30:19.651  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.615425 current_native_bytes is 164680719
+12-21 17:30:19.652  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:19.653  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 32126056 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10311033 HeapGrowthMultiplier: 3
+12-21 17:30:19.653  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.772163 current_native_bytes is 175388367
+12-21 17:30:19.663  3305  8066 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 10717512 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10368574 HeapGrowthMultiplier: 3
+12-21 17:30:19.663  3305  8066 I com.miui.home: CheckGCForNative gc_urgency 0.460481 current_native_bytes is 153979823
+12-21 17:30:19.871  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:19.995  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 10822632 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 10480351 HeapGrowthMultiplier: 3
+12-21 17:30:19.995  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.465292 current_native_bytes is 154084943
+12-21 17:30:20.155  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:20.557  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:20.565  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:20.570  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:20.671  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,3]
+12-21 17:30:20.726  3305  3533 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 11488120 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11143199 HeapGrowthMultiplier: 3
+12-21 17:30:20.726  3305  3533 I com.miui.home: CheckGCForNative gc_urgency 0.494438 current_native_bytes is 154750431
+12-21 17:30:20.736  3305  3533 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 11883352 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11166307 HeapGrowthMultiplier: 3
+12-21 17:30:20.736  3305  3533 I com.miui.home: CheckGCForNative gc_urgency 0.500899 current_native_bytes is 155145663
+12-21 17:30:20.797  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:20.803  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:20.895  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 12236448 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11600354 HeapGrowthMultiplier: 3
+12-21 17:30:20.895  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.518774 current_native_bytes is 155498759
+12-21 17:30:20.939  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 12369952 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11713261 HeapGrowthMultiplier: 3
+12-21 17:30:20.939  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.524034 current_native_bytes is 155632263
+12-21 17:30:20.972  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 12401408 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 11835887 HeapGrowthMultiplier: 3
+12-21 17:30:20.972  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.528084 current_native_bytes is 155663719
+12-21 17:30:21.198  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:21.198  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:21.199  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:21.199  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:21.200  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 23210388 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 12150058 HeapGrowthMultiplier: 3
+12-21 17:30:21.200  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.695498 current_native_bytes is 166472699
+12-21 17:30:21.250  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 12510076 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 12302329 HeapGrowthMultiplier: 3
+12-21 17:30:21.250  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.54333 current_native_bytes is 155772387
+12-21 17:30:21.441  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:21.441  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:22.003  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,23]
+12-21 17:30:22.084  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 12856052 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14120351 HeapGrowthMultiplier: 3
+12-21 17:30:22.084  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.601617 current_native_bytes is 156118363
+12-21 17:30:22.086  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:22.147  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 23567940 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14457649 HeapGrowthMultiplier: 3
+12-21 17:30:22.147  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0.768286 current_native_bytes is 166830251
+12-21 17:30:22.148  3305  9817 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:22.148  3305  3996 I cccccc  : getTaskSnapshot:
+12-21 17:30:22.148  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 34273892 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14464815 HeapGrowthMultiplier: 3
+12-21 17:30:22.148  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 44980836 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14464815 HeapGrowthMultiplier: 3
+12-21 17:30:22.148  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 1.08193 current_native_bytes is 188243147
+12-21 17:30:22.149  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.925204 current_native_bytes is 177536203
+12-21 17:30:22.150  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:22.150  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 55687268 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14474064 HeapGrowthMultiplier: 3
+12-21 17:30:22.150  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 1.23891 current_native_bytes is 198949579
+12-21 17:30:22.150  3305  3305 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:22.151  3305  9817 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:22.166  3305  8066 I com.miui.home: CheckGCForNative adj_start_bytes: 34158900 NativeAllocationGcWatermark: 10673561 java_gc_start_bytes: 18148559 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 143262311 new_native_bytes: 34279204 add_bytes_allowed: 32020683 is_gc_concurrent: 1 target_footprint_: 18279631 GetBytesAllocated: 14509322 HeapGrowthMultiplier: 3
+12-21 17:30:22.166  3305  8066 I com.miui.home: CheckGCForNative gc_urgency 0.926585 current_native_bytes is 177541515
+12-21 17:30:22.476  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:22.506  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 129969927
+12-21 17:30:22.617  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 10704672 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 8977589 HeapGrowthMultiplier: 3
+12-21 17:30:22.617  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.431538 current_native_bytes is 140674599
+12-21 17:30:22.617  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:22.619  3305  9817 I cccccc  : getTaskSnapshot:
+12-21 17:30:22.619  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 21428480 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 8982908 HeapGrowthMultiplier: 3
+12-21 17:30:22.619  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0.593147 current_native_bytes is 151398407
+12-21 17:30:22.620  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:22.621  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 42815584 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 8983116 HeapGrowthMultiplier: 3
+12-21 17:30:22.621  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.915139 current_native_bytes is 172785511
+12-21 17:30:22.622  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 32117280 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 8983116 HeapGrowthMultiplier: 3
+12-21 17:30:22.623  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.754074 current_native_bytes is 162087207
+12-21 17:30:23.121  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:23.138  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:23.251  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:23.253  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:23.277  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 21602936 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 9510220 HeapGrowthMultiplier: 3
+12-21 17:30:23.277  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.611651 current_native_bytes is 151572863
+12-21 17:30:23.373  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:23.373  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:23.517  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 22075392 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 10023741 HeapGrowthMultiplier: 3
+12-21 17:30:23.517  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.634226 current_native_bytes is 152045319
+12-21 17:30:23.699  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:23.700  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:23.704  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:23.704  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:23.705  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 33499900 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 10414619 HeapGrowthMultiplier: 3
+12-21 17:30:23.705  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.817993 current_native_bytes is 163469827
+12-21 17:30:23.786  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 22999404 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 10702278 HeapGrowthMultiplier: 3
+12-21 17:30:23.786  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.668568 current_native_bytes is 152969331
+12-21 17:30:23.941  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 23168512 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 10968863 HeapGrowthMultiplier: 3
+12-21 17:30:23.941  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.679141 current_native_bytes is 153138439
+12-21 17:30:23.955 10742 10742 I wm_on_create_called: [0,178570465,com.tencent.mm.ui.LauncherUI,performCreate,487]
+12-21 17:30:24.016 10742 10742 I wm_on_start_called: [0,178570465,com.tencent.mm.ui.LauncherUI,handleStartActivity,50]
+12-21 17:30:24.021  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:24.021  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:24.096 10742 10742 I wm_on_resume_called: [0,178570465,com.tencent.mm.ui.LauncherUI,RESUME_ACTIVITY,71]
+12-21 17:30:24.173 10742 10742 I wm_on_top_resumed_gained_called: [178570465,com.tencent.mm.ui.LauncherUI,topStateChangedWhenResumed]
+12-21 17:30:24.185 10742 10742 I wm_on_top_resumed_lost_called: [178570465,com.tencent.mm.ui.LauncherUI,topStateChangedWhenResumed]
+12-21 17:30:24.196 10742 10742 I wm_on_paused_called: [0,178570465,com.tencent.mm.ui.LauncherUI,performPause,6]
+12-21 17:30:24.247  3305  3305 I wm_on_stop_called: [0,206494651,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,8]
+12-21 17:30:24.314  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:24.319  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:24.332 10742 10742 I wm_on_create_called: [0,67306546,com.tencent.mm.plugin.account.ui.WelcomeActivity,performCreate,61]
+12-21 17:30:24.338 10742 10742 I wm_on_start_called: [0,67306546,com.tencent.mm.plugin.account.ui.WelcomeActivity,handleStartActivity,3]
+12-21 17:30:24.345 10742 10742 I wm_on_resume_called: [0,67306546,com.tencent.mm.plugin.account.ui.WelcomeActivity,RESUME_ACTIVITY,7]
+12-21 17:30:24.353 10742 10742 I wm_on_top_resumed_gained_called: [67306546,com.tencent.mm.plugin.account.ui.WelcomeActivity,topStateChangedWhenResumed]
+12-21 17:30:24.552  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:24.552  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:24.705  3305  3305 I wm_on_restart_called: [0,206494651,com.miui.home.launcher.Launcher,,0]
+12-21 17:30:24.707  3305  3305 I wm_on_start_called: [0,206494651,com.miui.home.launcher.Launcher,handleStartActivity,2]
+12-21 17:30:24.731  3305  3571 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 23313764 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 12911229 HeapGrowthMultiplier: 3
+12-21 17:30:24.731  3305  3571 I com.miui.home: CheckGCForNative gc_urgency 0.739813 current_native_bytes is 153283691
+12-21 17:30:24.745  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,36]
+12-21 17:30:24.851  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:24.970  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:24.971  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:24.972  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 34281436 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 13489215 HeapGrowthMultiplier: 3
+12-21 17:30:24.972  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.922336 current_native_bytes is 164251363
+12-21 17:30:24.972  3305  3358 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:24.972  3305  3998 I cccccc  : getTaskSnapshot:
+12-21 17:30:24.973  3305  3998 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 44987356 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 13492047 HeapGrowthMultiplier: 3
+12-21 17:30:24.973  3305  3998 I com.miui.home: CheckGCForNative gc_urgency 1.0836 current_native_bytes is 174957283
+12-21 17:30:24.973  3305  3998 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:24.974  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:24.975  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 55691612 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 13509983 HeapGrowthMultiplier: 3
+12-21 17:30:24.975  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 1.24529 current_native_bytes is 185661539
+12-21 17:30:24.975  3305  3305 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:24.975  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 66398556 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 13509983 HeapGrowthMultiplier: 3
+12-21 17:30:24.975  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 1.40649 current_native_bytes is 196368483
+12-21 17:30:24.975  3305  3358 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:24.998  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 55722140 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 13641209 HeapGrowthMultiplier: 3
+12-21 17:30:24.998  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 1.24971 current_native_bytes is 185692067
+12-21 17:30:24.998  3305  3573 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:25.162  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33211235 NativeAllocationGcWatermark: 10573807 java_gc_start_bytes: 17350525 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 129969927 new_native_bytes: 44949036 add_bytes_allowed: 31721421 is_gc_concurrent: 1 target_footprint_: 17481597 GetBytesAllocated: 14185217 HeapGrowthMultiplier: 3
+12-21 17:30:25.162  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 1.1039 current_native_bytes is 174918963
+12-21 17:30:25.162  3305  3594 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:25.187  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:25.202  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 106672(4675KB) AllocSpace objects, 14(392KB) LOS objects, 49% free, 8829KB/17MB, paused 5.866ms,899us total 228.275ms
+12-21 17:30:25.287 10742 10742 I wm_on_top_resumed_lost_called: [67306546,com.tencent.mm.plugin.account.ui.WelcomeActivity,topStateChangedWhenResumed]
+12-21 17:30:25.388  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 119364687
+12-21 17:30:25.472  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:25.506 10742 10742 I wm_on_paused_called: [0,67306546,com.tencent.mm.plugin.account.ui.WelcomeActivity,performPause,18]
+12-21 17:30:25.600 10742 10742 I wm_on_stop_called: [0,178570465,com.tencent.mm.ui.LauncherUI,STOP_ACTIVITY_ITEM,12]
+12-21 17:30:25.612  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:25.614  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:25.626 10742 10742 I wm_on_stop_called: [0,67306546,com.tencent.mm.plugin.account.ui.WelcomeActivity,STOP_ACTIVITY_ITEM,18]
+12-21 17:30:25.634 10742 10742 I wm_on_idle_called: com.tencent.mm.ui.LauncherUI
+12-21 17:30:25.635 10742 10742 I wm_on_idle_called: com.tencent.mm.plugin.account.ui.WelcomeActivity
+12-21 17:30:25.724  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 730896 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 9687818 HeapGrowthMultiplier: 3
+12-21 17:30:25.724  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.299874 current_native_bytes is 120095583
+12-21 17:30:25.788  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:25.788  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:25.791  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 11540292 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 9919395 HeapGrowthMultiplier: 3
+12-21 17:30:25.791  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.467966 current_native_bytes is 130904979
+12-21 17:30:25.991  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:25.995  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,3]
+12-21 17:30:26.070  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:26.070  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:26.133  3305  3358 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:26.149  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:26.284  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 1778728 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 11443254 HeapGrowthMultiplier: 3
+12-21 17:30:26.284  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.367852 current_native_bytes is 121143415
+12-21 17:30:26.365  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:26.365  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:26.495  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 2167016 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12390084 HeapGrowthMultiplier: 3
+12-21 17:30:26.495  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.401879 current_native_bytes is 121531703
+12-21 17:30:26.517  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 2234856 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12443778 HeapGrowthMultiplier: 3
+12-21 17:30:26.517  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.404492 current_native_bytes is 121599543
+12-21 17:30:26.534  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:26.534  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:26.713 13291 13291 I wm_on_create_called: [0,130713008,com.sina.weibo.SplashActivity,performCreate,48]
+12-21 17:30:26.737 13291 13291 I wm_on_start_called: [0,130713008,com.sina.weibo.SplashActivity,handleStartActivity,22]
+12-21 17:30:26.750 13291 13291 I wm_on_resume_called: [0,130713008,com.sina.weibo.SplashActivity,RESUME_ACTIVITY,8]
+12-21 17:30:26.808 13291 13291 I wm_on_top_resumed_gained_called: [130713008,com.sina.weibo.SplashActivity,topStateChangedWhenResumed]
+12-21 17:30:27.042  3305  3305 I wm_on_stop_called: [0,206494651,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,5]
+12-21 17:30:27.213 13291 13291 I wm_on_idle_called: com.sina.weibo.SplashActivity
+12-21 17:30:27.251 13384 13384 I wm_on_application_create_called: [0,com.sina.weibo,294]
+12-21 17:30:28.349 13291 13291 I wm_on_top_resumed_lost_called: [130713008,com.sina.weibo.SplashActivity,topStateChangedWhenResumed]
+12-21 17:30:28.358  3305  3305 I wm_on_restart_called: [0,206494651,com.miui.home.launcher.Launcher,,0]
+12-21 17:30:28.360  3305  3305 I wm_on_start_called: [0,206494651,com.miui.home.launcher.Launcher,handleStartActivity,2]
+12-21 17:30:28.379  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,17]
+12-21 17:30:28.471  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:28.475  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:28.513  3305  9817 I cccccc  : getTaskSnapshot:
+12-21 17:30:28.513  3305  9817 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 12884268 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 14359460 HeapGrowthMultiplier: 3
+12-21 17:30:28.513  3305  9817 I com.miui.home: CheckGCForNative gc_urgency 0.620423 current_native_bytes is 132248955
+12-21 17:30:28.514  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:28.514  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 23587116 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 14359652 HeapGrowthMultiplier: 3
+12-21 17:30:28.514  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.780025 current_native_bytes is 142951803
+12-21 17:30:28.514  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:28.514  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 34294060 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 14363469 HeapGrowthMultiplier: 3
+12-21 17:30:28.514  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.939796 current_native_bytes is 153658747
+12-21 17:30:28.527  3305  8066 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 12853964 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 14395022 HeapGrowthMultiplier: 3
+12-21 17:30:28.527  3305  8066 I com.miui.home: CheckGCForNative gc_urgency 0.621032 current_native_bytes is 132218651
+12-21 17:30:28.839  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 12905964 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 14507068 HeapGrowthMultiplier: 3
+12-21 17:30:28.839  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.625149 current_native_bytes is 132270651
+12-21 17:30:28.872  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 12908780 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 14518420 HeapGrowthMultiplier: 3
+12-21 17:30:28.872  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.625529 current_native_bytes is 132273467
+12-21 17:30:28.982 13291 13291 I wm_on_paused_called: [0,130713008,com.sina.weibo.SplashActivity,performPause,1]
+12-21 17:30:28.999  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:29.032 13291 13291 I wm_on_stop_called: [0,130713008,com.sina.weibo.SplashActivity,STOP_ACTIVITY_ITEM,8]
+12-21 17:30:29.110  3305  3358 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:29.114  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:29.262  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:29.262  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:29.262  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 23689112 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 15330435 HeapGrowthMultiplier: 3
+12-21 17:30:29.262  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.810498 current_native_bytes is 143053799
+12-21 17:30:29.669  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:29.673  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:29.674  3305  3571 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 13483788 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 16100691 HeapGrowthMultiplier: 3
+12-21 17:30:29.675  3305  3571 I com.miui.home: CheckGCForNative gc_urgency 0.681292 current_native_bytes is 132848475
+12-21 17:30:29.720  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:29.723  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:29.780  3305  3358 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:29.782  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:29.984  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 13889328 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 16991980 HeapGrowthMultiplier: 3
+12-21 17:30:29.984  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.714077 current_native_bytes is 133254015
+12-21 17:30:30.007  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:30.008  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:30.095  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33531011 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17557723 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 119364687 new_native_bytes: 14058000 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 17472408 HeapGrowthMultiplier: 3
+12-21 17:30:30.095  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.730763 current_native_bytes is 133422687
+12-21 17:30:30.206  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:30.206  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:30.239  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 131374191
+12-21 17:30:30.409 13636 13636 I wm_on_application_create_called: [0,com.UCMobile,206]
+12-21 17:30:30.550 13636 13636 I wm_on_create_called: [0,254321281,com.UCMobile.main.UCMobile,performCreate,113]
+12-21 17:30:30.672 13636 13636 I wm_on_create_called: [0,45585549,com.uc.browser.InnerUCMobile,performCreate,35]
+12-21 17:30:30.675 13636 13636 I wm_on_start_called: [0,45585549,com.uc.browser.InnerUCMobile,handleStartActivity,3]
+12-21 17:30:30.687 13636 13636 I wm_on_resume_called: [0,45585549,com.uc.browser.InnerUCMobile,RESUME_ACTIVITY,8]
+12-21 17:30:30.706  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:30.707  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:30.749 13636 13636 I wm_on_top_resumed_gained_called: [45585549,com.uc.browser.InnerUCMobile,topStateChangedWhenResumed]
+12-21 17:30:30.933  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:30.933  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:31.066  3305  3305 I wm_on_stop_called: [0,206494651,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,17]
+12-21 17:30:31.083  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:31.083  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:31.194  3305  3305 I wm_on_restart_called: [0,206494651,com.miui.home.launcher.Launcher,,0]
+12-21 17:30:31.196  3305  3305 I wm_on_start_called: [0,206494651,com.miui.home.launcher.Launcher,handleStartActivity,1]
+12-21 17:30:31.234  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,37]
+12-21 17:30:31.344  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:31.465  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 11118004 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12335129 HeapGrowthMultiplier: 3
+12-21 17:30:31.466  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.529836 current_native_bytes is 142492195
+12-21 17:30:31.466  3305  3358 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:31.469  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 21824948 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12357651 HeapGrowthMultiplier: 3
+12-21 17:30:31.469  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.689019 current_native_bytes is 153199139
+12-21 17:30:31.469  3305  3998 I cccccc  : getTaskSnapshot:
+12-21 17:30:31.470  3305  3998 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 32530868 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12373405 HeapGrowthMultiplier: 3
+12-21 17:30:31.470  3305  3998 I com.miui.home: CheckGCForNative gc_urgency 0.848193 current_native_bytes is 163905059
+12-21 17:30:31.470  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:31.481  3305  8066 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 11123892 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12457438 HeapGrowthMultiplier: 3
+12-21 17:30:31.481  3305  8066 I com.miui.home: CheckGCForNative gc_urgency 0.533544 current_native_bytes is 142498083
+12-21 17:30:31.487 13636 13636 I wm_on_destroy_called: [0,254321281,com.UCMobile.main.UCMobile,performDestroy,0]
+12-21 17:30:31.539 13636 13636 I wm_on_top_resumed_lost_called: [45585549,com.uc.browser.InnerUCMobile,topStateChangedWhenResumed]
+12-21 17:30:31.541  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:31.651  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 11158260 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12647637 HeapGrowthMultiplier: 3
+12-21 17:30:31.651  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.539684 current_native_bytes is 142532451
+12-21 17:30:31.817  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 11171508 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12721060 HeapGrowthMultiplier: 3
+12-21 17:30:31.817  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.542054 current_native_bytes is 142545699
+12-21 17:30:31.977  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 21775444 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12805881 HeapGrowthMultiplier: 3
+12-21 17:30:31.977  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.701536 current_native_bytes is 153149635
+12-21 17:30:31.977  3305  3358 I cccccc  : getTaskSnapshot:
+12-21 17:30:31.978  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:31.980  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 32481812 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12816088 HeapGrowthMultiplier: 3
+12-21 17:30:31.980  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.860325 current_native_bytes is 163856003
+12-21 17:30:31.980  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:31.980  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 43188756 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12816280 HeapGrowthMultiplier: 3
+12-21 17:30:31.980  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 1.01883 current_native_bytes is 174562947
+12-21 17:30:31.981  3305  3586 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:31.981  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33776771 NativeAllocationGcWatermark: 10648859 java_gc_start_bytes: 17803483 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131374191 new_native_bytes: 53896148 add_bytes_allowed: 31946577 is_gc_concurrent: 1 target_footprint_: 18082011 GetBytesAllocated: 12816280 HeapGrowthMultiplier: 3
+12-21 17:30:31.981  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 1.17733 current_native_bytes is 185270339
+12-21 17:30:31.981  3305  3305 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:32.333  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 88640(3872KB) AllocSpace objects, 12(288KB) LOS objects, 49% free, 8659KB/16MB, paused 1.536ms,245us total 351.987ms
+12-21 17:30:32.395  3305  3533 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 130296447
+12-21 17:30:32.396  3305 12150 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 704 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 9000093 HeapGrowthMultiplier: 3
+12-21 17:30:32.396  3305 12150 I com.miui.home: CheckGCForNative gc_urgency 0.270095 current_native_bytes is 130297151
+12-21 17:30:32.495  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:32.504  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:32.524  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:32.529  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:32.615  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:32.618  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:32.662 13636 13636 I wm_on_paused_called: [0,45585549,com.uc.browser.InnerUCMobile,performPause,241]
+12-21 17:30:32.906  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 1041976 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 9992626 HeapGrowthMultiplier: 3
+12-21 17:30:32.906  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.315494 current_native_bytes is 131338423
+12-21 17:30:32.974  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:32.974  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:32.976  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:32.976  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:32.977  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 11922284 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 10205489 HeapGrowthMultiplier: 3
+12-21 17:30:32.977  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.485099 current_native_bytes is 142218731
+12-21 17:30:33.161  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 1410348 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 10643314 HeapGrowthMultiplier: 3
+12-21 17:30:33.161  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.340543 current_native_bytes is 131706795
+12-21 17:30:33.173  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 1411948 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 10678224 HeapGrowthMultiplier: 3
+12-21 17:30:33.173  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.341614 current_native_bytes is 131708395
+12-21 17:30:33.248  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:33.248  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:33.568 14023 14023 I wm_on_create_called: [0,158992520,com.tencent.mtt.SplashActivity,performCreate,92]
+12-21 17:30:33.659 14023 14023 I wm_on_create_called: [0,238640905,com.tencent.mtt.MainActivity,performCreate,19]
+12-21 17:30:33.678 14023 14023 I wm_on_start_called: [0,238640905,com.tencent.mtt.MainActivity,handleStartActivity,19]
+12-21 17:30:33.691  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:33.695  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:33.936  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:33.936  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:34.091 14023 14023 I wm_on_resume_called: [0,238640905,com.tencent.mtt.MainActivity,RESUME_ACTIVITY,412]
+12-21 17:30:34.098 14023 14023 I wm_on_top_resumed_gained_called: [238640905,com.tencent.mtt.MainActivity,topStateChangedWhenResumed]
+12-21 17:30:34.254  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:34.254  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:34.287  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,18]
+12-21 17:30:34.309  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:34.335  3305  3571 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 1933812 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 13189838 HeapGrowthMultiplier: 3
+12-21 17:30:34.335  3305  3571 I com.miui.home: CheckGCForNative gc_urgency 0.424797 current_native_bytes is 132230259
+12-21 17:30:34.471  3305  4431 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 12637404 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 13958107 HeapGrowthMultiplier: 3
+12-21 17:30:34.471  3305  4431 I com.miui.home: CheckGCForNative gc_urgency 0.608415 current_native_bytes is 142933851
+12-21 17:30:34.471  3305  4431 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:34.474  3305  4431 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 23344348 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 13961941 HeapGrowthMultiplier: 3
+12-21 17:30:34.474  3305  4431 I com.miui.home: CheckGCForNative gc_urgency 0.769147 current_native_bytes is 153640795
+12-21 17:30:34.475  3305  3358 I cccccc  : getTaskSnapshot:
+12-21 17:30:34.480  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 23344348 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 13991801 HeapGrowthMultiplier: 3
+12-21 17:30:34.480  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.770461 current_native_bytes is 153640795
+12-21 17:30:34.480  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:34.659  8475  8475 I wm_on_destroy_called: [0,85749646,fm.qingting.qtradio.WelcomeActivity,performDestroy,13]
+12-21 17:30:34.662  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 12735996 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 14095989 HeapGrowthMultiplier: 3
+12-21 17:30:34.662  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.61403 current_native_bytes is 143032443
+12-21 17:30:34.687  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:34.729  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 12740860 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 14125874 HeapGrowthMultiplier: 3
+12-21 17:30:34.729  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.615 current_native_bytes is 143037307
+12-21 17:30:34.750 14023 14023 I wm_on_top_resumed_lost_called: [238640905,com.tencent.mtt.MainActivity,pausing]
+12-21 17:30:34.753 14023 14023 I wm_on_paused_called: [0,238640905,com.tencent.mtt.MainActivity,performPause,1]
+12-21 17:30:34.756 14023 14023 I wm_on_resume_called: [0,238640905,com.tencent.mtt.MainActivity,LIFECYCLER_RESUME_ACTIVITY,1]
+12-21 17:30:34.756 14023 14023 I wm_on_top_resumed_gained_called: [238640905,com.tencent.mtt.MainActivity,topWhenResuming]
+12-21 17:30:34.828 14023 14023 I wm_on_top_resumed_lost_called: [238640905,com.tencent.mtt.MainActivity,topStateChangedWhenResumed]
+12-21 17:30:34.970  3305  3358 I cccccc  : getTaskSnapshot:
+12-21 17:30:34.972  3305  3358 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 23318812 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 14254033 HeapGrowthMultiplier: 3
+12-21 17:30:34.972  3305  3358 I com.miui.home: CheckGCForNative gc_urgency 0.777528 current_native_bytes is 153615259
+12-21 17:30:34.972  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 34024732 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 14254225 HeapGrowthMultiplier: 3
+12-21 17:30:34.972  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 0.938136 current_native_bytes is 164321179
+12-21 17:30:34.972  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:34.973  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:34.973  3305  3586 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 44731996 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 14261539 HeapGrowthMultiplier: 3
+12-21 17:30:34.973  3305  3586 I com.miui.home: CheckGCForNative gc_urgency 1.09898 current_native_bytes is 175028443
+12-21 17:30:34.973  3305  3586 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:34.974  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 55439388 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 14261539 HeapGrowthMultiplier: 3
+12-21 17:30:34.974  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 1.2596 current_native_bytes is 185735835
+12-21 17:30:34.974  3305  3305 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:35.258  3305 12150 I com.miui.home: CheckGCForNative adj_start_bytes: 33330556 NativeAllocationGcWatermark: 10605365 java_gc_start_bytes: 17422509 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130296447 new_native_bytes: 34068972 add_bytes_allowed: 31816095 is_gc_concurrent: 1 target_footprint_: 17734059 GetBytesAllocated: 14521497 HeapGrowthMultiplier: 3
+12-21 17:30:35.258  3305 12150 I com.miui.home: CheckGCForNative gc_urgency 0.946818 current_native_bytes is 164365419
+12-21 17:30:35.319  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 118018(5154KB) AllocSpace objects, 14(392KB) LOS objects, 49% free, 8698KB/16MB, paused 175us,374us total 345.205ms
+12-21 17:30:35.390  3305 12150 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 131176219
+12-21 17:30:35.397 14023 14023 I wm_on_paused_called: [0,238640905,com.tencent.mtt.MainActivity,performPause,2]
+12-21 17:30:35.412  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:35.432  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:35.452 14023 14023 I wm_on_destroy_called: [0,158992520,com.tencent.mtt.SplashActivity,performDestroy,28]
+12-21 17:30:35.455  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:35.467  3305  4431 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:35.636  3305  3350 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:35.638  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:35.762  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 131168003
+12-21 17:30:35.916  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:35.916  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:35.922  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:35.922  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:35.960  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 10701928 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10282912 HeapGrowthMultiplier: 3
+12-21 17:30:35.960  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.467956 current_native_bytes is 141869931
+12-21 17:30:35.963  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 21411112 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10286998 HeapGrowthMultiplier: 3
+12-21 17:30:35.963  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.628332 current_native_bytes is 152579115
+12-21 17:30:35.964  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:35.964  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:35.966  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 21411496 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10288392 HeapGrowthMultiplier: 3
+12-21 17:30:35.966  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.62838 current_native_bytes is 152579499
+12-21 17:30:35.971  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 32118440 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10300920 HeapGrowthMultiplier: 3
+12-21 17:30:35.971  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.788975 current_native_bytes is 163286443
+12-21 17:30:35.972  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:35.972  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:35.974  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 32121960 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10300920 HeapGrowthMultiplier: 3
+12-21 17:30:35.974  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.789028 current_native_bytes is 163289963
+12-21 17:30:35.977  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 42828904 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10304467 HeapGrowthMultiplier: 3
+12-21 17:30:35.977  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.949355 current_native_bytes is 173996907
+12-21 17:30:36.095  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 32325064 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10636777 HeapGrowthMultiplier: 3
+12-21 17:30:36.095  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.802119 current_native_bytes is 163493067
+12-21 17:30:36.117  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 32328904 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 10664378 HeapGrowthMultiplier: 3
+12-21 17:30:36.117  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.803003 current_native_bytes is 163496907
+12-21 17:30:36.280  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:36.280  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:36.445 14376 14376 I wm_on_application_create_called: [0,com.youku.phone,275]
+12-21 17:30:36.535 14376 14376 I wm_on_create_called: [0,202264492,com.youku.phone.ActivityWelcome,performCreate,67]
+12-21 17:30:36.673 14376 14376 I wm_on_create_called: [0,76500376,com.youku.v2.HomePageEntry,performCreate,58]
+12-21 17:30:36.689  3305  9817 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:36.690  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:36.729 14376 14376 I wm_on_start_called: [0,76500376,com.youku.v2.HomePageEntry,handleStartActivity,56]
+12-21 17:30:36.767 14376 14376 I wm_on_resume_called: [0,76500376,com.youku.v2.HomePageEntry,RESUME_ACTIVITY,36]
+12-21 17:30:36.774 14376 14376 I wm_on_top_resumed_gained_called: [76500376,com.youku.v2.HomePageEntry,topStateChangedWhenResumed]
+12-21 17:30:36.808  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:36.808  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:37.011  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 32806580 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 12291350 HeapGrowthMultiplier: 3
+12-21 17:30:37.011  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.858843 current_native_bytes is 163974583
+12-21 17:30:37.059  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:37.059  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:37.185  3305  3305 I wm_on_stop_called: [0,206494651,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,9]
+12-21 17:30:37.252  3305  3305 I wm_on_restart_called: [0,206494651,com.miui.home.launcher.Launcher,,0]
+12-21 17:30:37.254  3305  3305 I wm_on_start_called: [0,206494651,com.miui.home.launcher.Launcher,handleStartActivity,1]
+12-21 17:30:37.271  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,15]
+12-21 17:30:37.383  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:37.536  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 44001032 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 14118640 HeapGrowthMultiplier: 3
+12-21 17:30:37.537  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 1.08105 current_native_bytes is 175169035
+12-21 17:30:37.537  3305  3996 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:37.537  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:37.539  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 54707976 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 14121438 HeapGrowthMultiplier: 3
+12-21 17:30:37.539  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 1.24135 current_native_bytes is 185875979
+12-21 17:30:37.539  3305  3996 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:37.541  3305  4431 I cccccc  : getTaskSnapshot:
+12-21 17:30:37.541  3305  4431 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 54711048 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 14132530 HeapGrowthMultiplier: 3
+12-21 17:30:37.541  3305  4431 I com.miui.home: CheckGCForNative gc_urgency 1.24173 current_native_bytes is 185879051
+12-21 17:30:37.542  3305  4431 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:37.542  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:37.740  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33413133 NativeAllocationGcWatermark: 10615525 java_gc_start_bytes: 17489846 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 131168003 new_native_bytes: 44055240 add_bytes_allowed: 31846575 is_gc_concurrent: 1 target_footprint_: 17815340 GetBytesAllocated: 14262467 HeapGrowthMultiplier: 3
+12-21 17:30:37.740  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 1.08616 current_native_bytes is 175223243
+12-21 17:30:37.740  3305  3594 I com.miui.home: CheckGCForNative requested 1
+12-21 17:30:37.747  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:37.791  3305  3340 I com.miui.home: NativeAlloc concurrent copying GC freed 113220(4956KB) AllocSpace objects, 14(392KB) LOS objects, 49% free, 8634KB/16MB, paused 13.422ms,1.100ms total 253.616ms
+12-21 17:30:37.817  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 130300363
+12-21 17:30:37.954 14376 14376 I wm_on_destroy_called: [0,202264492,com.youku.phone.ActivityWelcome,performDestroy,1]
+12-21 17:30:37.954 14376 14376 I wm_on_top_resumed_lost_called: [76500376,com.youku.v2.HomePageEntry,topStateChangedWhenResumed]
+12-21 17:30:38.045  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:38.211  3305 12150 I com.miui.home: CheckGCForNative gc_urgency 0 current_native_bytes is 130167659
+12-21 17:30:38.508  3305  3305 I wm_on_top_resumed_lost_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:38.529  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:38.533  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:38.552  3305  3305 I wm_on_paused_called: [0,206494651,com.miui.home.launcher.Launcher,performPause,2]
+12-21 17:30:38.582  3305 12150 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 204424 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 9589177 HeapGrowthMultiplier: 3
+12-21 17:30:38.582  3305 12150 I com.miui.home: CheckGCForNative gc_urgency 0.29037 current_native_bytes is 130372083
+12-21 17:30:38.750  3305  8066 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 258128 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 10149624 HeapGrowthMultiplier: 3
+12-21 17:30:38.750  3305  8066 I com.miui.home: CheckGCForNative gc_urgency 0.307962 current_native_bytes is 130425787
+12-21 17:30:38.772  3305 14786 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:38.774  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:38.875  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:38.876  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:38.928  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:38.928  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:38.947  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 11861356 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 10621125 HeapGrowthMultiplier: 3
+12-21 17:30:38.947  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.495876 current_native_bytes is 142029015
+12-21 17:30:39.017  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 1165452 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 10705073 HeapGrowthMultiplier: 3
+12-21 17:30:39.017  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.338191 current_native_bytes is 131333111
+12-21 17:30:39.051 14376 14376 I wm_on_paused_called: [0,76500376,com.youku.v2.HomePageEntry,performPause,257]
+12-21 17:30:39.155  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:39.155  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:39.184  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 1504640 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 11347674 HeapGrowthMultiplier: 3
+12-21 17:30:39.184  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.36252 current_native_bytes is 131672299
+12-21 17:30:39.532 14919 14919 I wm_on_create_called: [0,12117560,com.ucpro.MainActivity,performCreate,57]
+12-21 17:30:39.599 14376 14376 I wm_on_stop_called: [0,76500376,com.youku.v2.HomePageEntry,STOP_ACTIVITY_ITEM,64]
+12-21 17:30:39.705  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:39.706  3305  3998 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:39.861  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 1433408 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 11987185 HeapGrowthMultiplier: 3
+12-21 17:30:39.861  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.38061 current_native_bytes is 131601067
+12-21 17:30:39.872  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:39.872  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:39.974  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:39.974  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:40.123 14376 14376 I wm_on_idle_called: com.youku.v2.HomePageEntry
+12-21 17:30:40.151  3305  3305 I wm_on_stop_called: [0,206494651,com.miui.home.launcher.Launcher,STOP_ACTIVITY_ITEM,17]
+12-21 17:30:40.208 14919 14919 I wm_on_create_called: [0,161029629,com.ucpro.BrowserActivity,performCreate,580]
+12-21 17:30:40.211 14919 14919 I wm_on_start_called: [0,161029629,com.ucpro.BrowserActivity,handleStartActivity,3]
+12-21 17:30:40.228 14919 14919 I wm_on_resume_called: [0,161029629,com.ucpro.BrowserActivity,RESUME_ACTIVITY,14]
+12-21 17:30:40.267 14919 14919 I wm_on_top_resumed_gained_called: [161029629,com.ucpro.BrowserActivity,topStateChangedWhenResumed]
+12-21 17:30:40.290 14919 14919 I wm_on_destroy_called: [0,12117560,com.ucpro.MainActivity,performDestroy,0]
+12-21 17:30:40.424  3305  3305 I wm_on_restart_called: [0,206494651,com.miui.home.launcher.Launcher,,0]
+12-21 17:30:40.426  3305  3305 I wm_on_start_called: [0,206494651,com.miui.home.launcher.Launcher,handleStartActivity,1]
+12-21 17:30:40.443  3305  3305 I wm_on_resume_called: [0,206494651,com.miui.home.launcher.Launcher,RESUME_ACTIVITY,15]
+12-21 17:30:40.560  3305  3305 I wm_on_idle_called: com.miui.home.launcher.Launcher
+12-21 17:30:40.815  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 12797420 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 14340666 HeapGrowthMultiplier: 3
+12-21 17:30:40.815  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.621317 current_native_bytes is 142965079
+12-21 17:30:40.815  3305  3996 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:40.815  3305  3998 I cccccc  : getTaskSnapshot:
+12-21 17:30:40.816  3305  3998 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 23503852 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 14340858 HeapGrowthMultiplier: 3
+12-21 17:30:40.816  3305  3998 I com.miui.home: CheckGCForNative gc_urgency 0.781681 current_native_bytes is 153671511
+12-21 17:30:40.816  3305  3305 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:40.817  3305  3305 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 34210796 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 14345607 HeapGrowthMultiplier: 3
+12-21 17:30:40.817  3305  3305 I com.miui.home: CheckGCForNative gc_urgency 0.942189 current_native_bytes is 164378455
+12-21 17:30:40.817  3305  3996 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 34213740 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 14360356 HeapGrowthMultiplier: 3
+12-21 17:30:40.817  3305  3996 I com.miui.home: CheckGCForNative gc_urgency 0.942675 current_native_bytes is 164381399
+12-21 17:30:40.917  3305  3305 I wm_on_top_resumed_gained_called: [206494651,com.miui.home.launcher.Launcher,topStateChangedWhenResumed]
+12-21 17:30:40.918  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 23559724 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 14423135 HeapGrowthMultiplier: 3
+12-21 17:30:40.918  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.784982 current_native_bytes is 153727383
+12-21 17:30:40.930 14919 14919 I wm_on_top_resumed_lost_called: [161029629,com.ucpro.BrowserActivity,topStateChangedWhenResumed]
+12-21 17:30:41.184  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 23564556 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 14535815 HeapGrowthMultiplier: 3
+12-21 17:30:41.184  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.78843 current_native_bytes is 153732215
+12-21 17:30:41.273  3305  3594 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 23564716 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 14577701 HeapGrowthMultiplier: 3
+12-21 17:30:41.273  3305  3594 I com.miui.home: CheckGCForNative gc_urgency 0.789687 current_native_bytes is 153732375
+12-21 17:30:41.320  3305  3586 I cccccc  : createTaskSnapshotCompat:
+12-21 17:30:41.908 14919 14919 I wm_on_paused_called: [0,161029629,com.ucpro.BrowserActivity,performPause,272]
+12-21 17:30:41.914  3305  3996 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:41.914  3305  3351 D cccccc  : onTaskStackChangedBackground
+12-21 17:30:42.022  3305  3573 E cccccc  : createTaskSnapshot:
+12-21 17:30:42.022  3305  3573 I cccccc  : getTaskSnapshotInstance:
+12-21 17:30:42.023  3305  3573 I com.miui.home: CheckGCForNative adj_start_bytes: 33382896 NativeAllocationGcWatermark: 10599120 java_gc_start_bytes: 17484216 kNewNativeDiscountFactor: 2 kOldNativeDiscountFactor: 65536 old_native_bytes: 130167659 new_native_bytes: 34614744 add_bytes_allowed: 31797360 is_gc_concurrent: 1 target_footprint_: 17684102 GetBytesAllocated: 15287880 HeapGrowthMultiplier: 3
+12-21 17:30:42.023  3305  3573 I com.miui.home: CheckGCForNative gc_urgency 0.976465 current_native_bytes is 164782403
+12-21 17:30:42.735 14919 14919 I wm_on_stop_called: [0,161029629,com.ucpro.BrowserActivity,STOP_ACTIVITY_ITEM,45]
