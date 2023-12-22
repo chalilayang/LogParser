@@ -304,8 +304,8 @@ def drawFigure(file_path):
             y3.append(0)
             x3.append(record.time - minTime)
             y3.append(maxY)
-            gcCount = gcCount + 1
             if "NativeAlloc" in record.event:
+                gcCount = gcCount + 1
                 lineNativeAllocGc, = ax1.plot(x3, y3, color='r', linewidth=2)
             else:
                 ax1.plot(x3, y3, color='b', linewidth=2)
@@ -426,15 +426,19 @@ if __name__ == '__main__':
     # drawFigure('t_tapk/test_16_3.txt')
     # drawFigure('t_tapk/test_16_4.txt')
     # drawFigure('t_tapk/test_16_5.txt')
-    drawFigure('u_new/test1.txt')
-    drawFigure('u_new/test2.txt')
-    drawFigure('u_new/test3.txt')
-    drawFigure('u_new/test4.txt')
-    drawFigure('u_new/test5.txt')
+    # drawFigure('u_new/test1.txt')
+    # drawFigure('u_new/test2.txt')
+    # drawFigure('u_new/test3.txt')
+    # drawFigure('u_new/test4.txt')
+    # drawFigure('u_new/test5.txt')
 
     # drawFigure('u_new/test1_e.txt')
     # drawFigure('u_new/test2_e.txt')
     # drawFigure('u_new/test3_e.txt')
     # drawFigure('u_new/test4_e.txt')
     # drawFigure('u_new/test5_e.txt')
+    drawFigure('test_gc.txt')
+    drawFigure('test_gc_2.txt')
+    drawFigure('test_gc_3.txt')
+    drawFigure('test_gc_4.txt')
     plt.show()
